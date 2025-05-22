@@ -1,0 +1,23 @@
+# Fichiers Python
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Data sensibles ou bruyantes
+*.env
+*.log
+
+# Jupyter Notebooks runtime
+.ipynb_checkpoints/
+
+# Environnements virtuels (au cas où tu en utilises localement)
+env/
+venv/
+.myenv/
