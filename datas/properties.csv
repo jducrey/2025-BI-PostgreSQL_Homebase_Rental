@@ -1,0 +1,51 @@
+property_id,owner_id,title,location,price_per_night,max_occupants,surface_m2,parking_spaces,wifi_access,num_bedrooms,num_bathrooms
+1,1,Studio cosy à Lyon,Lyon,55,3,52,0,True,2,1
+2,2,Appartement vue mer à Marseille,Marseille,90,8,151,1,True,4,2
+3,3,Chalet en montagne à Chamonix,Chamonix,120,4,77,2,True,1,2
+4,1,Loft moderne à Paris,Paris,150,4,76,1,True,2,1
+5,2,Gîte rural à Vallon-Pont-d'Arc,Vallon-Pont-d'Arc,60,2,24,1,False,1,1
+6,6,Appartement familial à Bordeaux,Bordeaux,80,5,30,0,True,3,2
+7,7,Studio étudiant à Grenoble,Grenoble,45,2,27,0,True,1,1
+8,8,Maison avec piscine à Nice,Nice,180,6,126,2,True,5,2
+9,9,Appartement ancien à Toulouse,Toulouse,75,4,72,1,False,3,1
+10,9,Petit chalet rustique à Annecy,Annecy,95,4,66,1,False,2,1
+11,11,Villa spacieuse à Montpellier,Montpellier,130,10,136,3,True,8,4
+12,34,Loft charmant à Strasbourg,Strasbourg,110,5,98,1,True,3,2
+13,13,Studio typique à Lille,Lille,65,5,88,0,True,2,2
+14,13,Maison luxueuse à Biarritz,Biarritz,200,2,50,2,True,2,1
+15,15,Gîte familial à Nantes,Nantes,70,6,91,2,False,5,2
+16,16,Appartement cosy à Lyon,Lyon,78,2,39,0,True,2,1
+17,17,Chalet rustique à Chamonix,Chamonix,140,4,65,1,False,2,1
+18,18,Studio moderne à Grenoble,Grenoble,50,3,49,1,True,2,1
+19,19,Loft ensoleillé à Nice,Nice,160,3,61,1,True,2,1
+20,20,Appartement spacieux à Bordeaux,Bordeaux,95,2,42,0,True,1,1
+21,22,Villa charmante à Marseille,Marseille,155,8,138,3,True,5,4
+22,22,Studio étudiant à Lille,Lille,42,2,29,0,True,1,1
+23,23,Chalet typique à Annecy,Annecy,125,4,62,1,True,2,1
+24,24,Maison familiale à Paris,Paris,170,3,54,2,True,3,1
+25,25,Appartement ancien à Toulouse,Toulouse,85,3,57,1,False,2,1
+26,26,Studio cosy à Lyon,Lyon,58,2,46,0,True,2,1
+27,27,Loft luxueux à Biarritz,Biarritz,190,5,85,0,False,3,2
+28,28,Gîte rustique à Vallon-Pont-d'Arc,Vallon-Pont-d'Arc,66,3,57,1,False,2,1
+29,29,Maison spacieuse à Nantes,Nantes,115,4,76,2,True,2,1
+30,31,Appartement charmant à Strasbourg,Strasbourg,105,1,20,0,False,1,1
+31,31,Studio familial à Grenoble,Grenoble,48,4,69,1,True,3,2
+32,32,Villa moderne à Montpellier,Montpellier,135,7,112,3,True,5,3
+33,34,Chalet cosy à Chamonix,Chamonix,118,2,36,1,True,2,1
+34,34,Appartement vue mer à Nice,Nice,175,5,114,1,True,5,2
+35,31,Studio typique à Lille,Lille,60,1,11,0,False,1,1
+36,1,Loft spacieux à Paris,Paris,145,5,103,1,True,4,1
+37,3,Maison ensoleillée à Biarritz,Biarritz,185,5,88,2,True,3,2
+38,3,Gîte charmant à Nantes,Nantes,75,2,31,2,False,1,1
+39,4,Appartement familial à Bordeaux,Bordeaux,92,5,90,1,True,3,2
+40,7,Chalet luxueux à Annecy,Annecy,138,3,48,1,True,3,1
+41,6,Studio étudiant à Lyon,Lyon,52,2,30,0,True,1,1
+42,7,Loft moderne à Strasbourg,Strasbourg,108,3,57,1,True,2,1
+43,8,Appartement typique à Toulouse,Toulouse,82,1,28,0,False,1,1
+44,9,Villa rustique à Vallon-Pont-d'Arc,Vallon-Pont-d'Arc,120,7,132,2,False,4,2
+45,16,Maison cosy à Marseille,Marseille,142,4,64,1,True,4,2
+46,11,Studio spacieux à Grenoble,Grenoble,49,3,50,0,False,2,1
+47,13,Appartement charmant à Montpellier,Montpellier,98,3,56,0,True,2,1
+48,13,Loft familial à Paris,Paris,160,5,93,1,True,3,2
+49,14,Gîte ensoleillé à Lyon,Lyon,70,4,65,1,True,3,2
+50,15,Maison typique à Nice,Nice,178,6,99,1,False,4,2

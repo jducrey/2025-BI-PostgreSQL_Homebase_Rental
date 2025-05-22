@@ -1,0 +1,101 @@
+review_id,booking_id,rating,comment,review_date
+1,1,5,"Très bon séjour, hôte réactif !",2023-07-21
+2,2,4,"Chalet super, un peu loin du centre.",2023-08-26
+3,3,5,"Vue incroyable, appartement propre.",2024-05-03
+4,4,3,Loft sympa mais un peu bruyant.,2024-01-07
+5,5,5,"Super calme, parfait pour se reposer.",2023-10-25
+6,6,4,"Bon accueil, quartier sympa.",2024-01-15
+7,7,3,"Studio fonctionnel, mais bruyant.",2023-11-24
+8,8,5,"Piscine très agréable, logement impeccable.",2023-09-26
+9,9,4,"Logement charmant, bien situé.",2023-02-21
+10,10,5,"Rustique mais chaleureux, très propre.",2023-04-21
+11,11,4,"Très bon accueil, logement bien équipé.",2023-07-08
+12,12,5,"Séjour parfait, tout était impeccable.",2023-05-15
+13,13,3,Appartement sympa mais un peu petit.,2023-05-04
+14,14,4,"Propre et calme, bon rapport qualité-prix.",2023-08-04
+15,15,2,Problème de chauffage non résolu rapidement.,2023-09-27
+16,16,5,"Vue magnifique, séjour inoubliable !",2023-04-08
+17,17,4,Maison spacieuse et bien située.,2023-10-24
+18,18,3,Quelques nuisances sonores.,2023-10-31
+19,19,5,"Lieu charmant, on reviendra !",2023-11-07
+20,20,4,"Check-in facile, hôte disponible.",2023-12-26
+21,21,3,Un peu loin du centre-ville.,2024-03-11
+22,22,5,Gîte parfait pour un week-end en famille.,2024-02-15
+23,23,4,"Studio bien agencé, bonne literie.",2024-03-31
+24,24,5,"Piscine au top, tout était parfait.",2024-05-18
+25,25,2,"Propreté à revoir, un peu déçu.",2024-05-14
+26,26,4,"Très bon emplacement, logement agréable.",2024-06-11
+27,27,3,"Chalet rustique, manque un peu de confort.",2024-06-07
+28,28,5,"Super séjour, hôte très réactif.",2024-08-12
+29,29,4,Logement conforme aux photos.,2024-07-24
+30,30,5,"Endroit paisible, parfait pour se détendre.",2024-08-09
+31,31,2,"Literie inconfortable, sinon ça allait.",2024-07-24
+32,32,4,"Maison bien équipée, très propre.",2024-09-14
+33,33,5,Un véritable havre de paix.,2024-08-13
+34,34,3,Petite surface mais pratique.,2024-09-09
+35,35,5,Excellent rapport qualité/prix.,2024-08-29
+36,36,4,Terrasse très agréable.,2024-09-26
+37,37,5,"Appartement bien décoré, calme.",2024-09-09
+38,38,3,Problème d'eau chaude le premier jour.,2024-10-15
+39,39,4,"Globalement satisfait, bon séjour.",2024-10-04
+40,40,5,Magnifique vue depuis le balcon.,2024-09-25
+41,41,3,Un peu cher pour la prestation.,2024-11-01
+42,42,4,"Bon accueil, logement lumineux.",2024-09-23
+43,43,5,Chalet parfait pour un séjour en amoureux.,2024-09-28
+44,44,2,"Problème de propreté, dommage.",2024-11-04
+45,45,4,"Quartier calme, logement spacieux.",2024-11-13
+46,46,5,"Séjour génial, tout était parfait.",2024-11-10
+47,47,3,Manque d’équipements de cuisine.,2024-11-28
+48,48,4,"Emplacement central, pratique.",2024-11-29
+49,49,5,"Très bonne expérience, je recommande.",2024-12-08
+50,50,2,Connexion Wi-Fi trop faible.,2024-10-21
+51,51,5,"Logement très cosy, idéal pour deux.",2024-11-29
+52,52,4,"Bon standing, hôte très sympa.",2024-12-17
+53,53,5,On reviendra avec plaisir !,2024-11-10
+54,54,3,Salle de bain un peu vieillotte.,2024-11-28
+55,55,5,"Maison impeccable, super jardin.",2024-11-22
+56,56,4,"Appartement moderne, bien situé.",2024-12-27
+57,57,5,"Séjour au top, rien à redire.",2024-12-10
+58,58,3,Pas de parking à proximité.,2024-12-02
+59,59,5,"Très bien équipé, lit confortable.",2024-12-28
+60,60,4,"Studio propre, bon accueil.",2025-02-06
+61,61,2,Mauvaise insonorisation.,2024-12-26
+62,62,4,"Proche des transports, très pratique.",2025-02-06
+63,63,5,Superbe terrasse avec vue.,2025-02-19
+64,64,3,"Photos trompeuses, un peu déçu.",2025-01-07
+65,65,5,Tout était parfait du début à la fin.,2025-01-31
+66,66,4,Très bon rapport qualité/prix.,2025-03-03
+67,67,5,Excellente communication avec l’hôte.,2025-01-17
+68,68,3,Chambre mal chauffée.,2025-02-08
+69,69,4,"Environnement calme, logement bien décoré.",2025-02-21
+70,70,5,"Un sans-faute, je recommande vivement.",2025-03-17
+71,71,4,"Check-in fluide, logement fidèle à l’annonce.",2025-04-05
+72,72,3,Cuisine peu équipée.,2025-02-16
+73,73,5,"Propre, fonctionnel, bien situé.",2025-03-29
+74,74,4,Très bon contact avec l’hôte.,2025-02-26
+75,75,5,"Logement charmant, parfaitement entretenu.",2025-04-10
+76,76,2,Lit inconfortable et bruit de voisinage.,2025-04-04
+77,77,4,Bonne situation géographique.,2025-03-20
+78,78,5,Un vrai cocon douillet.,2025-03-28
+79,79,3,Bruit de travaux dans l’immeuble.,2025-04-20
+80,80,4,"Propre, agréable, bien équipé.",2025-05-08
+81,81,5,Séjour exceptionnel dans un cadre magnifique.,2025-05-02
+82,82,4,Appartement spacieux et calme.,2025-04-01
+83,83,3,Problèmes d’humidité.,2025-04-03
+84,84,4,"Check-in simple, bon contact.",2025-04-11
+85,85,5,Logement top pour un week-end prolongé.,2025-06-03
+86,86,2,"Manque d’intimité, mal isolé.",2025-05-27
+87,87,4,Très belle décoration intérieure.,2025-04-24
+88,88,5,"Vue splendide, parfait pour les vacances.",2025-06-17
+89,89,3,Peu de commerces autour.,2025-05-28
+90,90,4,"Hôte très disponible, logement fonctionnel.",2025-05-22
+91,91,5,"Rien à redire, parfait !",2025-06-04
+92,92,3,Lit grince un peu mais bon séjour.,2025-06-26
+93,93,5,Maison spacieuse et lumineuse.,2025-06-21
+94,94,4,"Proche du centre, calme la nuit.",2025-06-02
+95,95,3,Climatisation peu efficace.,2025-07-03
+96,96,5,"Lieu chaleureux, très bien entretenu.",2025-06-15
+97,97,4,Studio idéal pour une personne seule.,2025-07-07
+98,98,5,"Accueil impeccable, logement très propre.",2025-07-29
+99,99,3,Manque de rangements.,2025-06-30
+100,100,4,"Très bon séjour, je recommande !",2025-06-28

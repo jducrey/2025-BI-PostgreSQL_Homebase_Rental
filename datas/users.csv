@@ -1,0 +1,36 @@
+user_id,name,email,signup_date,birth_date,phone,address,sex
+1,Arnaud Dupont,arnaud@example.com,2023-06-01,1968-05-26,+33(+33)519051843,"34, boulevard Michel Clément, 23239 Martin-sur-Bazin",M
+2,Alice Martin,alice.martin@example.com,2022-11-12,1993-01-23,+33237765429,"27, chemin Pages, 11633 Mendès",F
+3,Bob Dupont,bob.dupont@example.com,2023-01-20,1999-11-03,+33(+33)237952513,"4, avenue Moulin, 71916 Legrosnec",M
+4,Chloe Bernard,chloe.bernard@example.com,2024-03-15,1987-01-27,+33(+33)230316277,"3, boulevard de Meyer, 62537 Bonneau",F
+5,Luc Moreau,luc.moreau@example.com,2023-02-10,1988-10-07,+33363305341,"21, avenue Tanguy, 27433 Guyot-les-Bains",M
+6,Emma Leroy,emma.leroy@example.com,2023-07-05,1997-02-11,+33478+3341027,"69, chemin Margaux Andre, 56815 Lombard",F
+7,Noah Petit,noah.petit@example.com,2023-09-12,1955-01-30,+33631317383,"79, chemin Anastasie Chauvet, 95676 WeberBourg",M
+8,Sophie Blanc,sophie.blanc@example.com,2024-01-01,1967-12-10,+33(+33)449155897,"275, avenue Lucas Guillot, 97685 Gay-sur-Petit",F
+9,Léo Fontaine,leo.fontaine@example.com,2022-08-23,2004-12-11,+33(+33)277100033,"48, avenue Henri Richard, 34303 Lecoq",M
+10,Laura Garnier,laura.garnier@example.com,2023-04-18,1954-08-25,+33180253105,"95, rue Georges Poirier, 20100 Greniernec",F
+11,Julien Mercier,julien.mercier@example.com,2023-03-03,1983-07-21,+33339647802,"7, boulevard Pages, 47284 Grenier",M
+12,Manon Roux,manon.roux@example.com,2024-02-05,2005-10-30,+33636543621,"9, rue Jacques Munoz, 81670 FoucherBourg",F
+13,Antoine Charles,antoine.charles@example.com,2023-10-22,1986-11-30,+33485261948,"592, rue de Duval, 68109 Saint Jérômeboeuf",M
+14,Lina Bourdon,lina.bourdon@example.com,2022-09-17,1995-07-01,+33739554041,"78, boulevard de Voisin, 97465 Jacob-sur-Mer",F
+15,Matthieu Lefevre,matthieu.lefevre@example.com,2023-11-11,1985-08-30,+33(+33)169026478,"609, chemin de Charles, 52390 Neveu",M
+16,Camille Perrot,camille.perrot@example.com,2023-05-09,1963-05-31,+33373193451,"22, avenue Breton, 09946 Olivier",F
+17,Victor Girard,victor.girard@example.com,2023-12-20,1959-03-12,+33(+33)143842853,"24, boulevard Virginie Raymond, 82350 Sainte Marguerite-les-Bains",M
+18,Clara Rolland,clara.rolland@example.com,2022-07-15,1965-11-03,+33432680314,"52, avenue Poulain, 23148 Robert",F
+19,Nicolas Vidal,nicolas.vidal@example.com,2024-01-27,1991-08-13,+33327255973,"711, boulevard Paris, 13494 EvrardBourg",M
+20,Anaïs Renaud,anais.renaud@example.com,2022-10-03,1961-03-20,+33373897547,"56, chemin de Hoarau, 87427 Boutin",F
+21,Romain Faure,romain.faure@example.com,2023-08-14,1964-03-16,+33698203660,"97, boulevard de Baudry, 69174 Sainte MargaretVille",M
+22,Isabelle Gauthier,isabelle.gauthier@example.com,2023-06-30,1955-06-25,+33(+33)631962323,"42, chemin Turpin, 20417 Berthelotdan",F
+23,Théo Marchand,theo.marchand@example.com,2023-04-01,2004-07-07,+3345+33205665,"boulevard de Boutin, 70977 Saint Renéenec",M
+24,Julie Lucas,julie.lucas@example.com,2022-12-24,2001-04-19,+33245288889,"81, avenue de Coste, 97264 Fleurynec",F
+25,Quentin Lefevre,quentin.lefevre@example.com,2023-07-11,1998-11-24,+33177714182,"avenue de Paris, 97447 Perezdan",M
+26,Sarah Meunier,sarah.meunier@example.com,2024-02-28,1990-02-10,+33491443372,"33, rue Vallet, 11492 ThierryBourg",F
+27,Hugo Barbier,hugo.barbier@example.com,2023-09-03,1993-09-10,+33596084638,"84, rue de Couturier, 05919 Pottier-la-Forêt",M
+28,Zoé Hamon,zoe.hamon@example.com,2023-01-15,1998-05-29,+33176924609,"avenue Poirier, 05475 Pires",F
+29,Louis Delattre,louis.delattre@example.com,2022-11-02,1954-06-04,+33376534898,"54, rue Fernandez, 25216 Renault",M
+30,Élise Dufresne,elise.dufresne@example.com,2023-02-19,1979-08-20,+33698221326,"8, avenue Inès Bruneau, 68917 Jacquesboeuf",F
+31,Adrien Lemoine,adrien.lemoine@example.com,2023-06-25,1961-04-05,+33632525160,"37, rue de Bertin, 40201 Saint OlivieVille",M
+32,Claire Martel,claire.martel@example.com,2023-03-08,1994-02-18,+33382178265,"9, chemin Mathilde Lagarde, 58718 Saint Aurore",F
+33,Maxime Pires,maxime.pires@example.com,2024-01-12,1972-03-21,+33(+33)476132812,"62, boulevard de Ruiz, 46689 Nguyen-sur-Maillard",M
+34,Amandine Roche,amandine.roche@example.com,2023-05-22,1968-05-08,+33370898466,"33, chemin Bigot, 87616 Lagardenec",F
+35,Yanis Renault,yanis.renault@example.com,2023-08-01,2002-03-17,+33489351156,"74, rue Nath Bonnet, 85446 Sainte Yves",M
