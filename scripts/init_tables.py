@@ -29,6 +29,7 @@ try:
         CREATE TABLE IF NOT EXISTS properties (
             property_id INTEGER PRIMARY KEY,
             owner_id INTEGER REFERENCES users(user_id),
+            property_type TEXT,
             title TEXT,
             location TEXT,
             price_per_night NUMERIC,
