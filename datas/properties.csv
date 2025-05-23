@@ -49,3 +49,953 @@ property_id,owner_id,property_type,title,location,price_per_night,max_occupants,
 48,13,Loft,Loft familial à Paris,Paris,160,5,93,1,True,3,2
 49,14,Gîte,Gîte ensoleillé à Lyon,Lyon,70,4,65,1,True,3,2
 50,15,Maison,Maison typique à Nice,Nice,178,6,99,1,False,4,2
+51,177,Maison,Maison magnifique avec vue sur Philippeboeuf,Philippeboeuf,354,2,242,0,False,1,1
+52,151,Chalet,Chalet traditionnelle au cœur de Merle,Merle,213,6,235,0,True,5,2
+53,114,Yourte,Yourte rustique proche de Sainte MichelBourg,Sainte MichelBourg,119,2,327,1,True,4,3
+54,110,Duplex,Duplex familial dans un quartier branché de Gallet,Gallet,356,5,250,1,True,4,2
+55,92,Cabane,Cabane rustique pourvu d'un beau panorama sur Bourgeoisnec,Bourgeoisnec,67,8,191,2,False,4,3
+56,47,T2,T2 paisible en plein coeur de Legrand,Legrand,184,4,211,1,True,2,2
+57,137,Yourte,Yourte lumineux près de Marydan,Marydan,181,5,26,2,False,3,1
+58,77,Yourte,Yourte calme au cœur de Sainte William,Sainte William,340,8,161,0,False,2,3
+59,90,Loft,Loft luxueux à Bourdon,Bourdon,416,3,336,0,True,3,2
+60,187,Studio,Studio charmant près de Colinnec,Colinnec,97,2,166,1,False,2,1
+61,139,Duplex,Duplex calme pourvu d'un beau panorama sur Dufour,Dufour,217,5,99,1,False,3,3
+62,89,Chalet,Chalet familial avec vue sur Fouquet-sur-Mer,Fouquet-sur-Mer,68,3,130,2,False,5,2
+63,108,Appartement,Appartement cozy à proximité de Dupuy,Dupuy,165,2,247,1,False,5,2
+64,150,Cabane,Cabane moderne près de Daniel,Daniel,375,4,256,0,False,5,1
+65,202,Cabane,Cabane luxueux avec vue sur David,David,451,8,373,1,False,1,1
+66,57,Studio,Studio traditionnelle au cœur de Lopez-sur-Guyot,Lopez-sur-Guyot,282,2,64,0,True,4,2
+67,139,Chalet,Chalet spacieux pourvu d'un beau panorama sur Masson,Masson,330,3,227,2,True,4,3
+68,88,Maison,Maison cozy à Albertnec,Albertnec,383,6,126,1,False,2,2
+69,159,Appartement,Appartement romantique près de Samson,Samson,491,6,46,1,False,2,1
+70,69,Gite,Gite luxueux avec vue sur Vasseur,Vasseur,138,1,40,1,True,2,3
+71,138,Loft,Loft paisible avec vue sur Texier,Texier,421,4,315,0,True,3,1
+72,46,Yourte,Yourte traditionnelle au cœur de Diaz,Diaz,469,3,81,2,False,2,1
+73,58,Cabane,Cabane rustique au cœur de Picard-sur-Verdier,Picard-sur-Verdier,37,6,136,2,False,1,1
+74,121,T2,T2 rustique au cœur de RollandBourg,RollandBourg,409,7,284,0,True,4,2
+75,158,Chalet,Chalet lumineux pourvu d'un beau panorama sur Barbedan,Barbedan,85,8,272,0,True,5,2
+76,218,Gite,Gite cozy au cœur de Maury,Maury,275,7,233,2,True,4,3
+77,183,Gite,Gite calme avec vue sur Pinto-la-Forêt,Pinto-la-Forêt,71,6,326,0,True,2,2
+78,170,Yourte,Yourte charmant pourvu d'un beau panorama sur Sainte Nathalie,Sainte Nathalie,196,7,320,2,False,4,3
+79,70,Yourte,Yourte moderne à proximité de Hoarau,Hoarau,436,2,350,2,True,4,2
+80,176,Loft,Loft rural à proximité de Gay,Gay,453,8,219,1,True,3,2
+81,217,Chalet,Chalet rural à Louis-sur-Maury,Louis-sur-Maury,108,8,49,0,True,1,2
+82,83,Appartement,Appartement magnifique près de Baudry,Baudry,96,1,315,2,False,1,2
+83,50,Chalet,Chalet paisible à proximité de Sainte Benjamin,Sainte Benjamin,498,1,162,2,False,3,1
+84,95,Yourte,Yourte typique pourvu d'un beau panorama sur Sainte Nath,Sainte Nath,109,8,129,0,False,5,2
+85,57,Appartement,Appartement lumineux à Fontainenec,Fontainenec,145,7,302,2,True,5,3
+86,137,Pavillon,Pavillon cozy à Carlierdan,Carlierdan,122,5,374,1,False,3,1
+87,154,Duplex,Duplex lumineux proche de Sainte Clémence-sur-Mer,Sainte Clémence-sur-Mer,366,7,50,0,True,1,3
+88,119,Villa,Villa spacieux dans un quartier branché de Saint Marinenec,Saint Marinenec,244,8,189,0,False,3,3
+89,141,Chalet,Chalet calme avec vue sur Payet,Payet,56,3,95,2,True,1,2
+90,120,Gite,Gite familial à proximité de Collet,Collet,340,8,227,1,True,5,1
+91,114,Chalet,Chalet moderne à proximité de Jourdan,Jourdan,175,8,284,2,False,1,1
+92,86,Maison,Maison cozy au cœur de Saint Christiane-la-Forêt,Saint Christiane-la-Forêt,134,5,123,0,False,3,2
+93,45,Appartement,Appartement familial au cœur de Fischer,Fischer,412,7,104,0,False,5,3
+94,91,Loft,Loft romantique pourvu d'un beau panorama sur MasseVille,MasseVille,456,6,51,1,True,4,1
+95,169,Gite,Gite paisible avec vue sur Barthelemy-les-Bains,Barthelemy-les-Bains,190,7,308,1,False,3,1
+96,42,Maison,Maison rural au cœur de Gonzalezboeuf,Gonzalezboeuf,117,8,368,1,True,4,1
+97,105,Loft,Loft lumineux à proximité de FischerVille,FischerVille,235,2,217,1,False,2,2
+98,89,Duplex,Duplex romantique avec vue sur Sainte Marieboeuf,Sainte Marieboeuf,354,2,286,2,True,3,2
+99,127,Pavillon,Pavillon typique proche de David-la-Forêt,David-la-Forêt,82,3,146,0,True,5,1
+100,202,Cabane,Cabane rustique avec vue sur Chrétien-la-Forêt,Chrétien-la-Forêt,425,8,252,2,False,5,3
+101,84,Cabane,Cabane paisible près de Allard-sur-Bruneau,Allard-sur-Bruneau,351,6,92,1,True,4,2
+102,141,Cabane,Cabane magnifique à Pottier,Pottier,170,1,195,2,True,3,2
+103,132,Gite,Gite cozy au cœur de Sainte NathalieVille,Sainte NathalieVille,218,5,54,2,True,5,3
+104,203,Villa,Villa familial à proximité de Parentboeuf,Parentboeuf,327,1,245,2,True,3,3
+105,94,Gite,Gite rustique pourvu d'un beau panorama sur Saint Alice,Saint Alice,61,8,67,1,True,5,3
+106,126,Duplex,Duplex typique au cœur de Turpin,Turpin,392,8,239,2,True,3,2
+107,219,T2,T2 spacieux à proximité de Fournier-sur-Poulain,Fournier-sur-Poulain,426,6,362,2,True,3,1
+108,102,Chalet,Chalet romantique avec vue sur Roger,Roger,377,7,160,1,True,3,1
+109,40,Yourte,Yourte calme proche de FischerBourg,FischerBourg,209,5,350,2,False,2,3
+110,181,Pavillon,Pavillon traditionnelle avec vue sur Lacombe-sur-Mer,Lacombe-sur-Mer,316,7,344,1,True,5,1
+111,95,Cabane,Cabane romantique à proximité de Daniel,Daniel,215,1,200,1,True,2,2
+112,79,Gite,Gite typique dans un quartier branché de Gimenez,Gimenez,100,3,54,1,True,5,3
+113,183,Pavillon,Pavillon cozy pourvu d'un beau panorama sur Sainte Nathalie-sur-Mer,Sainte Nathalie-sur-Mer,368,6,331,0,False,2,1
+114,105,Duplex,Duplex charmant proche de Lebrun,Lebrun,254,1,225,1,True,4,3
+115,42,T2,T2 typique en plein coeur de Da Costa,Da Costa,303,4,173,1,True,3,3
+116,182,Yourte,Yourte familial en plein coeur de Bazinnec,Bazinnec,423,5,210,2,False,2,1
+117,184,Yourte,Yourte paisible proche de Vincent,Vincent,158,1,343,1,False,5,1
+118,167,Pavillon,Pavillon paisible pourvu d'un beau panorama sur Sainte Adélaïdedan,Sainte Adélaïdedan,93,5,57,0,False,4,3
+119,131,Duplex,Duplex moderne à proximité de CharrierBourg,CharrierBourg,496,4,245,1,True,4,1
+120,59,Maison,Maison rural pourvu d'un beau panorama sur Lacombe-la-Forêt,Lacombe-la-Forêt,150,7,56,1,True,1,2
+121,167,Appartement,Appartement magnifique près de Legendreboeuf,Legendreboeuf,104,3,34,1,False,2,3
+122,113,Gite,Gite lumineux en plein coeur de Saint CélineBourg,Saint CélineBourg,32,2,24,1,True,2,3
+123,84,Pavillon,Pavillon spacieux pourvu d'un beau panorama sur Sainte Joseph-la-Forêt,Sainte Joseph-la-Forêt,86,5,136,1,True,1,1
+124,160,Maison,Maison moderne en plein coeur de Saint Jacques-la-Forêt,Saint Jacques-la-Forêt,86,8,320,2,True,5,3
+125,135,Loft,Loft traditionnelle proche de Saint Colette-les-Bains,Saint Colette-les-Bains,249,1,329,1,True,5,2
+126,115,Duplex,Duplex romantique avec vue sur Dijoux,Dijoux,214,2,284,2,True,4,2
+127,173,Studio,Studio rural à proximité de Sainte Arnaude,Sainte Arnaude,159,1,197,0,False,2,3
+128,70,Cabane,Cabane magnifique avec vue sur Payetdan,Payetdan,327,6,83,0,False,5,2
+129,166,Cabane,Cabane paisible proche de De Oliveira,De Oliveira,428,8,371,1,True,2,1
+130,89,Pavillon,Pavillon cozy en plein coeur de GalletVille,GalletVille,180,4,37,0,True,3,2
+131,101,Villa,Villa paisible à proximité de Roche,Roche,308,8,144,0,True,3,2
+132,87,Studio,Studio traditionnelle près de Saint Suzanne-sur-Mer,Saint Suzanne-sur-Mer,93,6,238,1,False,4,2
+133,177,Duplex,Duplex charmant en plein coeur de Imbertboeuf,Imbertboeuf,284,6,280,1,True,4,1
+134,39,Maison,Maison romantique proche de Delormeboeuf,Delormeboeuf,180,6,67,0,False,3,2
+135,142,Gite,Gite rustique à proximité de Vallée,Vallée,383,8,194,1,True,3,3
+136,206,Maison,Maison luxueux à Chartier-sur-Grenier,Chartier-sur-Grenier,435,1,53,2,False,3,3
+137,191,Pavillon,Pavillon cozy proche de Lévydan,Lévydan,103,8,32,0,True,2,3
+138,180,Chalet,Chalet spacieux près de Bailly-les-Bains,Bailly-les-Bains,320,1,324,0,False,3,2
+139,206,Gite,Gite lumineux avec vue sur Picard,Picard,100,6,218,1,False,2,1
+140,42,Studio,Studio familial proche de Dumas,Dumas,295,7,302,0,False,3,3
+141,172,Gite,Gite lumineux dans un quartier branché de Guichard-la-Forêt,Guichard-la-Forêt,176,8,117,0,True,1,2
+142,199,Duplex,Duplex moderne en plein coeur de Saint Adrienne,Saint Adrienne,444,6,356,1,True,5,3
+143,71,T2,T2 paisible à Pineau,Pineau,110,3,200,2,True,1,1
+144,219,Duplex,Duplex magnifique dans un quartier branché de Maurice,Maurice,282,1,199,2,False,4,3
+145,45,Duplex,Duplex moderne avec vue sur Mendès,Mendès,188,7,382,2,False,5,2
+146,130,Maison,Maison rustique avec vue sur Renault-les-Bains,Renault-les-Bains,192,2,245,1,False,2,3
+147,51,Cabane,Cabane magnifique proche de Neveu,Neveu,96,7,272,0,True,5,1
+148,203,T2,T2 rustique proche de Renard,Renard,195,4,192,2,False,1,2
+149,141,Loft,Loft traditionnelle pourvu d'un beau panorama sur Ferreira,Ferreira,94,5,329,2,True,5,3
+150,216,Duplex,Duplex rustique proche de Sainte Hortense,Sainte Hortense,367,6,303,0,True,1,1
+151,180,Cabane,Cabane luxueux à Besnard,Besnard,137,7,331,2,True,4,3
+152,169,Villa,Villa luxueux à Lemaître,Lemaître,184,8,140,2,False,3,2
+153,80,Appartement,Appartement rustique au cœur de Leclerc,Leclerc,255,7,262,1,True,3,3
+154,196,Duplex,Duplex paisible près de NeveuVille,NeveuVille,397,6,390,1,False,2,2
+155,215,Villa,Villa moderne pourvu d'un beau panorama sur Barre,Barre,193,4,253,0,False,4,1
+156,121,Duplex,Duplex cozy avec vue sur Guichard,Guichard,178,7,330,1,True,2,2
+157,94,Yourte,Yourte typique près de Gimenez-les-Bains,Gimenez-les-Bains,420,3,270,2,False,4,2
+158,120,Gite,Gite moderne au cœur de HernandezBourg,HernandezBourg,231,8,138,0,False,1,1
+159,179,T2,T2 lumineux en plein coeur de Sainte Colette,Sainte Colette,481,8,161,2,True,1,2
+160,192,Duplex,Duplex charmant à Albert,Albert,217,7,202,0,False,1,3
+161,76,Villa,Villa rural dans un quartier branché de Meyer,Meyer,313,5,52,1,False,5,2
+162,149,Yourte,Yourte rustique avec vue sur Sainte Madeleine,Sainte Madeleine,79,7,206,1,False,2,1
+163,93,Yourte,Yourte spacieux pourvu d'un beau panorama sur Reynaud,Reynaud,286,1,38,0,True,3,2
+164,61,Villa,Villa rustique en plein coeur de Faivre,Faivre,340,3,182,2,False,2,2
+165,53,Yourte,Yourte lumineux à Martineau-sur-Caron,Martineau-sur-Caron,202,8,377,2,False,4,1
+166,153,Chalet,Chalet luxueux près de Chauveau-sur-Pichon,Chauveau-sur-Pichon,86,7,313,1,True,5,2
+167,111,T2,T2 charmant dans un quartier branché de Lagarde,Lagarde,56,8,102,2,False,2,3
+168,112,Loft,Loft lumineux au cœur de Sainte Augustin-les-Bains,Sainte Augustin-les-Bains,388,2,112,0,False,3,2
+169,77,Duplex,Duplex charmant à proximité de Ferreira-la-Forêt,Ferreira-la-Forêt,134,7,271,2,False,1,3
+170,219,Duplex,Duplex typique pourvu d'un beau panorama sur Sainte Laure,Sainte Laure,317,6,354,1,False,3,1
+171,102,Gite,Gite rural pourvu d'un beau panorama sur Cohen,Cohen,309,6,361,2,False,5,2
+172,79,Loft,Loft traditionnelle dans un quartier branché de Morin,Morin,315,5,130,1,False,2,3
+173,179,Pavillon,Pavillon rural en plein coeur de Lefèvre,Lefèvre,275,6,301,2,False,3,1
+174,102,Yourte,Yourte spacieux pourvu d'un beau panorama sur Clerc-sur-Leclercq,Clerc-sur-Leclercq,488,7,191,0,False,1,2
+175,146,Pavillon,Pavillon rural avec vue sur Laine-sur-Louis,Laine-sur-Louis,256,5,397,1,True,2,3
+176,137,T2,T2 charmant pourvu d'un beau panorama sur Pierre,Pierre,169,3,70,2,True,2,1
+177,47,Cabane,Cabane typique pourvu d'un beau panorama sur Saint Élise,Saint Élise,356,4,41,0,False,3,3
+178,64,Gite,Gite luxueux avec vue sur LabbéBourg,LabbéBourg,424,3,17,2,True,4,3
+179,163,Gite,Gite luxueux en plein coeur de Carlier-sur-Mer,Carlier-sur-Mer,132,5,179,1,True,1,3
+180,71,Yourte,Yourte romantique dans un quartier branché de PrévostVille,PrévostVille,408,1,104,1,True,1,2
+181,120,Gite,Gite calme proche de Chauvin,Chauvin,413,5,34,0,False,5,3
+182,162,Appartement,Appartement traditionnelle près de Auger,Auger,262,8,83,2,False,3,1
+183,64,Appartement,Appartement rustique près de Lemaîtrenec,Lemaîtrenec,404,8,346,1,True,1,3
+184,91,Chalet,Chalet lumineux à Richard,Richard,375,4,104,2,False,4,3
+185,64,Chalet,Chalet spacieux avec vue sur Barre,Barre,372,2,109,0,False,3,1
+186,189,Studio,Studio spacieux à Le Gall,Le Gall,150,8,400,1,False,3,3
+187,123,Pavillon,Pavillon traditionnelle au cœur de GuilbertBourg,GuilbertBourg,364,6,369,0,True,1,2
+188,42,T2,T2 spacieux proche de Petitjean,Petitjean,381,5,368,0,False,3,3
+189,182,Loft,Loft rustique dans un quartier branché de Traorenec,Traorenec,274,3,247,2,False,4,3
+190,152,Villa,Villa magnifique en plein coeur de Hervé-les-Bains,Hervé-les-Bains,305,4,141,2,True,5,2
+191,214,Villa,Villa moderne près de Chauveaunec,Chauveaunec,499,2,46,2,True,5,3
+192,145,Duplex,Duplex rural proche de Coste,Coste,467,8,74,2,True,5,2
+193,81,Appartement,Appartement familial pourvu d'un beau panorama sur Fernandez-sur-Meunier,Fernandez-sur-Meunier,444,1,247,0,False,4,3
+194,126,Studio,Studio familial pourvu d'un beau panorama sur Bailly,Bailly,374,5,385,0,False,3,1
+195,68,Pavillon,Pavillon lumineux dans un quartier branché de Hardyboeuf,Hardyboeuf,67,1,231,1,True,5,1
+196,213,Appartement,Appartement cozy en plein coeur de Sainte EmmanuelVille,Sainte EmmanuelVille,176,7,107,0,False,3,2
+197,43,Gite,Gite spacieux à proximité de Riou-la-Forêt,Riou-la-Forêt,71,3,349,1,True,2,3
+198,197,Maison,Maison rustique pourvu d'un beau panorama sur Rogerdan,Rogerdan,402,4,16,0,False,4,3
+199,207,Pavillon,Pavillon spacieux pourvu d'un beau panorama sur Faivre-sur-Dos Santos,Faivre-sur-Dos Santos,302,7,132,0,False,3,1
+200,79,T2,T2 calme dans un quartier branché de Lemoine,Lemoine,478,2,31,2,False,5,1
+201,143,Loft,Loft moderne dans un quartier branché de Charpentierdan,Charpentierdan,81,1,243,2,True,2,3
+202,170,Studio,Studio familial à proximité de Sainte Victoire,Sainte Victoire,149,4,43,0,False,2,3
+203,99,Yourte,Yourte lumineux près de Bailly-sur-Teixeira,Bailly-sur-Teixeira,336,6,136,1,True,5,1
+204,146,Maison,Maison traditionnelle à Roussetdan,Roussetdan,61,3,335,2,False,5,2
+205,117,Studio,Studio luxueux près de Michel,Michel,373,7,283,1,False,4,1
+206,118,T2,T2 rustique à proximité de Saint Rémy,Saint Rémy,416,8,138,0,False,2,2
+207,111,Studio,Studio spacieux pourvu d'un beau panorama sur Riou,Riou,243,3,213,0,False,2,2
+208,137,Cabane,Cabane calme avec vue sur Denis-la-Forêt,Denis-la-Forêt,260,6,62,2,True,1,2
+209,199,Maison,Maison paisible au cœur de Colindan,Colindan,67,4,315,2,True,4,1
+210,125,Chalet,Chalet calme à Leroy,Leroy,37,4,112,2,True,4,1
+211,196,Pavillon,Pavillon spacieux dans un quartier branché de Sainte ClémenceBourg,Sainte ClémenceBourg,498,4,297,1,False,4,2
+212,94,Villa,Villa traditionnelle près de Vallet-sur-Étienne,Vallet-sur-Étienne,163,6,277,1,False,1,3
+213,85,Gite,Gite calme près de Leduc-sur-Moreno,Leduc-sur-Moreno,134,6,175,1,True,5,1
+214,108,Pavillon,Pavillon cozy proche de Poirierdan,Poirierdan,163,7,166,0,True,3,1
+215,167,Maison,Maison familial dans un quartier branché de Sainte DeniseVille,Sainte DeniseVille,311,6,146,1,False,4,1
+216,43,Pavillon,Pavillon rustique près de Goncalves,Goncalves,101,8,109,2,True,5,1
+217,154,Appartement,Appartement magnifique au cœur de Boyer-sur-Rodrigues,Boyer-sur-Rodrigues,33,7,85,2,True,1,3
+218,136,Duplex,Duplex typique au cœur de Pinto,Pinto,288,8,206,0,False,4,1
+219,179,Studio,Studio romantique pourvu d'un beau panorama sur Hamon,Hamon,240,1,23,2,False,5,2
+220,76,Studio,Studio paisible pourvu d'un beau panorama sur Vincent,Vincent,387,7,106,0,True,5,1
+221,51,Loft,Loft lumineux dans un quartier branché de Alves,Alves,299,5,196,1,False,1,2
+222,118,Maison,Maison lumineux en plein coeur de Bousquetboeuf,Bousquetboeuf,154,4,168,2,True,1,1
+223,37,Maison,Maison spacieux à proximité de Sainte Stéphane,Sainte Stéphane,312,8,43,2,True,2,1
+224,74,Gite,Gite luxueux à proximité de RiouBourg,RiouBourg,431,6,304,0,True,2,1
+225,101,Pavillon,Pavillon traditionnelle en plein coeur de Leclercq-les-Bains,Leclercq-les-Bains,53,2,365,1,True,2,2
+226,54,Studio,Studio lumineux dans un quartier branché de Saint Émilieboeuf,Saint Émilieboeuf,103,7,54,1,True,5,1
+227,70,Yourte,Yourte luxueux à proximité de Pottier,Pottier,489,6,211,2,True,1,3
+228,132,Pavillon,Pavillon cozy près de Dupuy,Dupuy,80,7,133,0,False,5,3
+229,95,Yourte,Yourte magnifique à proximité de Pereira,Pereira,197,1,339,1,False,4,1
+230,206,Chalet,Chalet spacieux pourvu d'un beau panorama sur Delormeboeuf,Delormeboeuf,251,3,363,2,False,1,3
+231,131,T2,T2 charmant dans un quartier branché de Richard,Richard,67,2,152,0,False,2,3
+232,137,Maison,Maison rural près de Paul,Paul,84,2,17,1,False,3,2
+233,127,Appartement,Appartement moderne proche de Guichard,Guichard,125,7,244,2,False,1,1
+234,161,Appartement,Appartement romantique près de Bouchetboeuf,Bouchetboeuf,77,6,212,0,False,4,2
+235,197,Appartement,Appartement calme pourvu d'un beau panorama sur Henry,Henry,154,3,365,1,True,2,2
+236,122,T2,T2 familial à Meyer,Meyer,104,2,100,1,False,4,2
+237,98,Gite,Gite rural avec vue sur Louis-sur-Mer,Louis-sur-Mer,158,4,384,2,False,5,3
+238,182,Loft,Loft moderne en plein coeur de BonneauBourg,BonneauBourg,99,5,18,1,False,5,2
+239,193,Chalet,Chalet rural en plein coeur de JacquesBourg,JacquesBourg,250,3,168,1,True,4,2
+240,206,Duplex,Duplex rural à proximité de Saint Alfreddan,Saint Alfreddan,179,8,309,0,False,4,2
+241,171,Maison,Maison moderne près de Langlois,Langlois,318,4,318,2,True,5,1
+242,85,Pavillon,Pavillon charmant en plein coeur de Joly,Joly,137,8,164,2,True,4,3
+243,157,Gite,Gite luxueux proche de Godardboeuf,Godardboeuf,185,4,144,2,True,4,2
+244,102,Appartement,Appartement lumineux en plein coeur de Lacombe,Lacombe,275,7,288,2,False,5,1
+245,157,Chalet,Chalet lumineux pourvu d'un beau panorama sur Leroy,Leroy,356,2,70,0,False,2,3
+246,48,Yourte,Yourte lumineux au cœur de Saint Gilbert-les-Bains,Saint Gilbert-les-Bains,360,7,400,1,False,1,1
+247,135,Appartement,Appartement typique à Le Gall,Le Gall,291,4,243,1,False,4,3
+248,189,Yourte,Yourte rustique pourvu d'un beau panorama sur Lacroix,Lacroix,206,1,262,0,False,4,1
+249,161,Appartement,Appartement rural proche de Chevalier,Chevalier,189,6,248,0,False,3,2
+250,72,Appartement,Appartement charmant en plein coeur de BlotBourg,BlotBourg,386,8,178,0,False,1,3
+251,96,Appartement,Appartement paisible au cœur de Saint Philippinedan,Saint Philippinedan,205,2,361,0,True,5,1
+252,98,Villa,Villa rural proche de Dupont-sur-Mer,Dupont-sur-Mer,316,7,251,0,False,2,1
+253,171,Cabane,Cabane spacieux à proximité de Saint StéphanieVille,Saint StéphanieVille,44,4,245,2,False,4,1
+254,53,Pavillon,Pavillon typique dans un quartier branché de Lemaire-la-Forêt,Lemaire-la-Forêt,172,2,310,0,True,3,2
+255,54,Loft,Loft moderne en plein coeur de Saint Thibaut,Saint Thibaut,164,8,285,2,False,5,2
+256,106,Yourte,Yourte lumineux à proximité de Saint Sabine,Saint Sabine,88,6,195,1,True,3,3
+257,38,Yourte,Yourte luxueux avec vue sur Saint Jacqueline-sur-Mer,Saint Jacqueline-sur-Mer,98,6,75,0,False,1,1
+258,113,Chalet,Chalet romantique proche de Leconte,Leconte,228,7,320,0,False,4,1
+259,82,Gite,Gite charmant pourvu d'un beau panorama sur Leroy,Leroy,500,3,299,0,False,3,1
+260,147,Duplex,Duplex paisible près de Saint Camille-la-Forêt,Saint Camille-la-Forêt,260,1,198,0,False,2,1
+261,182,Maison,Maison romantique pourvu d'un beau panorama sur Lévêque-sur-Benard,Lévêque-sur-Benard,364,8,224,2,False,4,3
+262,144,Gite,Gite rustique en plein coeur de Charrier,Charrier,72,1,127,1,True,3,1
+263,140,Villa,Villa rustique à Guillot-sur-Bodin,Guillot-sur-Bodin,429,8,304,2,False,5,3
+264,151,Appartement,Appartement traditionnelle avec vue sur Mercier-sur-Perrin,Mercier-sur-Perrin,426,6,292,0,False,5,1
+265,149,Maison,Maison charmant avec vue sur Ledoux-sur-Garcia,Ledoux-sur-Garcia,454,4,167,0,False,3,2
+266,210,Appartement,Appartement paisible en plein coeur de Carpentier-sur-Mer,Carpentier-sur-Mer,90,4,122,2,False,5,3
+267,135,Maison,Maison lumineux proche de Picard,Picard,101,4,120,0,False,5,2
+268,137,Yourte,Yourte rustique pourvu d'un beau panorama sur ThomasBourg,ThomasBourg,195,5,163,2,False,5,3
+269,46,Appartement,Appartement magnifique proche de Bodin,Bodin,432,7,45,1,True,2,1
+270,180,Duplex,Duplex paisible près de Poulain-les-Bains,Poulain-les-Bains,156,7,265,0,False,4,2
+271,113,Gite,Gite luxueux avec vue sur MailletBourg,MailletBourg,436,2,221,2,False,3,2
+272,184,Gite,Gite lumineux près de Monnier,Monnier,31,2,389,1,False,1,3
+273,167,Maison,Maison spacieux dans un quartier branché de Lamy-sur-Mer,Lamy-sur-Mer,452,4,268,1,False,3,2
+274,118,Villa,Villa lumineux proche de Dumasnec,Dumasnec,466,8,190,2,True,1,1
+275,178,Cabane,Cabane cozy en plein coeur de Sainte Gérarddan,Sainte Gérarddan,93,3,240,1,True,4,1
+276,220,Pavillon,Pavillon calme proche de Saint Clémenceboeuf,Saint Clémenceboeuf,362,5,96,1,True,3,2
+277,193,Appartement,Appartement luxueux près de Pascal,Pascal,492,3,41,1,False,2,2
+278,54,Cabane,Cabane charmant avec vue sur Saint Victor,Saint Victor,78,1,124,1,True,2,3
+279,185,Loft,Loft luxueux pourvu d'un beau panorama sur Ferreiranec,Ferreiranec,257,1,19,2,False,1,2
+280,73,Pavillon,Pavillon familial proche de Pineau,Pineau,66,4,211,0,True,1,2
+281,121,Chalet,Chalet rustique à Guyon-sur-Langlois,Guyon-sur-Langlois,225,3,343,2,True,1,3
+282,103,Yourte,Yourte lumineux au cœur de Jeannec,Jeannec,362,3,240,1,True,2,2
+283,57,Yourte,Yourte paisible en plein coeur de Gilbert,Gilbert,141,2,66,0,True,5,3
+284,146,Maison,Maison spacieux près de Muller,Muller,191,3,141,1,True,2,3
+285,145,Yourte,Yourte magnifique à Potierboeuf,Potierboeuf,383,1,352,1,True,5,3
+286,126,Villa,Villa charmant dans un quartier branché de Richard,Richard,230,5,345,0,True,4,2
+287,167,Appartement,Appartement familial dans un quartier branché de MailletBourg,MailletBourg,356,2,285,0,False,3,1
+288,120,Maison,Maison rural à proximité de NavarroBourg,NavarroBourg,309,3,256,0,True,5,1
+289,122,Studio,Studio typique à Saint Anastasienec,Saint Anastasienec,50,1,218,2,False,5,2
+290,119,Maison,Maison moderne à proximité de Henry-sur-Traore,Henry-sur-Traore,357,3,157,0,False,1,3
+291,59,Loft,Loft romantique proche de François,François,197,7,315,2,True,3,3
+292,133,Maison,Maison cozy dans un quartier branché de Philippe,Philippe,155,2,237,0,False,5,3
+293,207,Studio,Studio luxueux à Bourgeois,Bourgeois,409,3,76,0,True,1,1
+294,81,Gite,Gite romantique près de Antoine-sur-Rivière,Antoine-sur-Rivière,294,5,100,1,True,3,3
+295,187,Appartement,Appartement rural au cœur de Lamy,Lamy,443,7,154,2,True,3,3
+296,48,Yourte,Yourte familial avec vue sur Lopes-la-Forêt,Lopes-la-Forêt,263,6,43,1,True,3,1
+297,186,T2,T2 calme avec vue sur Hamondan,Hamondan,323,2,131,2,True,1,1
+298,173,Loft,Loft familial au cœur de Lebon-sur-Vallée,Lebon-sur-Vallée,216,7,91,0,True,5,3
+299,168,Pavillon,Pavillon typique à proximité de Lopes-les-Bains,Lopes-les-Bains,194,4,228,2,False,3,1
+300,162,Yourte,Yourte moderne près de NicolasBourg,NicolasBourg,287,1,106,0,True,4,1
+301,161,Gite,Gite magnifique à Camus,Camus,462,5,182,0,False,1,2
+302,201,Loft,Loft lumineux à Grondin-les-Bains,Grondin-les-Bains,431,5,393,2,True,4,2
+303,140,Yourte,Yourte magnifique en plein coeur de Saint Nathalie,Saint Nathalie,427,4,390,2,True,2,1
+304,83,Maison,Maison typique au cœur de Saint Colette,Saint Colette,307,6,340,2,True,3,1
+305,53,Cabane,Cabane paisible à proximité de Saint Alex,Saint Alex,407,5,68,0,True,4,2
+306,56,Studio,Studio charmant proche de Potier-sur-Millet,Potier-sur-Millet,173,2,37,0,False,3,2
+307,126,Pavillon,Pavillon lumineux avec vue sur Bailly,Bailly,78,3,341,1,True,5,3
+308,102,Studio,Studio luxueux à proximité de Ferrand-sur-Pereira,Ferrand-sur-Pereira,96,4,164,1,False,4,3
+309,83,Pavillon,Pavillon rural près de Sainte Sophiedan,Sainte Sophiedan,261,5,134,0,True,2,3
+310,167,Appartement,Appartement moderne proche de Cousin,Cousin,114,8,253,1,False,1,3
+311,203,Chalet,Chalet familial dans un quartier branché de Marin-la-Forêt,Marin-la-Forêt,187,8,150,0,True,2,3
+312,146,T2,T2 typique au cœur de Le GoffVille,Le GoffVille,457,6,90,0,True,3,2
+313,152,Villa,Villa luxueux au cœur de Sainte Georges,Sainte Georges,183,5,104,0,False,4,3
+314,185,Pavillon,Pavillon typique pourvu d'un beau panorama sur Lebretonboeuf,Lebretonboeuf,78,8,67,0,True,1,1
+315,83,Loft,Loft typique proche de Pichondan,Pichondan,451,7,205,2,True,5,3
+316,176,T2,T2 cozy avec vue sur Saint Joseph,Saint Joseph,63,4,345,1,True,1,2
+317,166,Appartement,Appartement familial au cœur de Delmas-la-Forêt,Delmas-la-Forêt,55,3,308,1,False,4,1
+318,73,Maison,Maison rustique à proximité de Marin,Marin,211,4,110,1,False,4,1
+319,55,Studio,Studio luxueux dans un quartier branché de Lucas-la-Forêt,Lucas-la-Forêt,181,8,225,2,False,1,1
+320,180,T2,T2 rustique à proximité de CoulonBourg,CoulonBourg,244,4,344,2,True,5,1
+321,151,Maison,Maison familial près de Parent-sur-Marin,Parent-sur-Marin,308,8,191,2,False,4,2
+322,137,Duplex,Duplex rural au cœur de Pottierdan,Pottierdan,335,4,30,1,True,4,3
+323,84,Chalet,Chalet rustique dans un quartier branché de Guilbert-les-Bains,Guilbert-les-Bains,81,4,351,0,False,5,3
+324,213,Studio,Studio lumineux dans un quartier branché de Lefèvrenec,Lefèvrenec,463,7,196,0,True,2,3
+325,144,Chalet,Chalet calme près de Costa,Costa,332,1,375,2,False,5,3
+326,77,Duplex,Duplex paisible dans un quartier branché de Hoareau-sur-Chauvet,Hoareau-sur-Chauvet,444,8,292,1,True,4,1
+327,59,Appartement,Appartement typique au cœur de Gosselin,Gosselin,338,4,25,2,False,1,2
+328,184,Yourte,Yourte magnifique dans un quartier branché de Lebrun,Lebrun,96,6,382,0,False,1,1
+329,183,Duplex,Duplex magnifique proche de Saint Jeanne,Saint Jeanne,86,6,52,1,False,5,1
+330,126,Chalet,Chalet rural à Saint Virginie,Saint Virginie,99,3,389,1,False,3,1
+331,53,Pavillon,Pavillon charmant pourvu d'un beau panorama sur Lévêque,Lévêque,485,6,129,2,True,4,2
+332,115,Pavillon,Pavillon rustique à Michel-sur-Salmon,Michel-sur-Salmon,120,1,374,2,False,5,1
+333,37,Duplex,Duplex calme près de Gillet,Gillet,444,4,342,2,True,4,1
+334,191,Chalet,Chalet typique avec vue sur Sainte Adélaïdeboeuf,Sainte Adélaïdeboeuf,207,6,100,2,True,3,2
+335,144,Studio,Studio typique à MartyVille,MartyVille,157,2,194,1,True,1,1
+336,55,Maison,Maison charmant en plein coeur de Hoarau,Hoarau,244,3,226,1,False,3,3
+337,96,Maison,Maison paisible avec vue sur Jourdan,Jourdan,275,4,98,1,True,1,2
+338,148,Studio,Studio traditionnelle près de Allain,Allain,83,2,190,0,False,2,3
+339,67,Appartement,Appartement calme pourvu d'un beau panorama sur Saint ThibaultBourg,Saint ThibaultBourg,77,6,319,2,False,1,2
+340,67,Cabane,Cabane lumineux proche de Roy,Roy,485,7,95,0,True,3,1
+341,47,Loft,Loft charmant à proximité de Sainte Auguste,Sainte Auguste,313,5,353,1,False,2,1
+342,144,Studio,Studio lumineux à proximité de Descampsnec,Descampsnec,311,8,93,0,False,1,2
+343,213,Appartement,Appartement paisible à Buisson-sur-De Oliveira,Buisson-sur-De Oliveira,368,8,117,0,True,2,1
+344,101,Cabane,Cabane moderne à Lefebvre,Lefebvre,272,2,172,1,False,4,3
+345,204,T2,T2 luxueux avec vue sur PruvostVille,PruvostVille,308,7,109,1,False,3,1
+346,180,Gite,Gite traditionnelle au cœur de Hoareau,Hoareau,255,8,149,0,False,5,1
+347,159,Duplex,Duplex moderne avec vue sur Perrier-sur-Breton,Perrier-sur-Breton,372,6,292,1,True,5,1
+348,107,Maison,Maison spacieux pourvu d'un beau panorama sur Perrin-sur-Camus,Perrin-sur-Camus,304,8,308,0,False,3,1
+349,145,Maison,Maison romantique au cœur de Saint Yvesdan,Saint Yvesdan,322,3,76,1,True,2,1
+350,122,Loft,Loft cozy proche de Salmonboeuf,Salmonboeuf,246,2,364,1,True,2,3
+351,154,T2,T2 calme près de Bonneau,Bonneau,402,2,59,1,False,5,2
+352,95,T2,T2 familial pourvu d'un beau panorama sur Marchal,Marchal,499,1,373,2,False,1,2
+353,210,Duplex,Duplex lumineux proche de Renauddan,Renauddan,331,2,69,2,True,3,3
+354,75,Chalet,Chalet traditionnelle à proximité de Saint Sébastien-la-Forêt,Saint Sébastien-la-Forêt,226,8,307,2,False,1,1
+355,206,T2,T2 rustique à proximité de Sainte Henriette,Sainte Henriette,346,7,34,1,False,2,1
+356,76,Pavillon,Pavillon calme en plein coeur de JeanBourg,JeanBourg,167,6,25,1,False,3,2
+357,89,Gite,Gite paisible avec vue sur Gauthier-sur-Allain,Gauthier-sur-Allain,146,3,168,2,False,3,2
+358,89,Pavillon,Pavillon lumineux à proximité de Maillard,Maillard,360,2,111,1,True,4,3
+359,178,Gite,Gite paisible pourvu d'un beau panorama sur Sainte Aurélie-sur-Mer,Sainte Aurélie-sur-Mer,221,1,278,0,True,3,3
+360,152,Villa,Villa rustique à proximité de Garnier,Garnier,429,1,103,0,True,1,1
+361,48,Studio,Studio cozy en plein coeur de Bodin,Bodin,500,6,375,0,False,3,2
+362,40,Villa,Villa luxueux à proximité de Lesage,Lesage,93,1,138,1,False,5,2
+363,74,Duplex,Duplex lumineux en plein coeur de Bouvier-sur-Mer,Bouvier-sur-Mer,312,6,191,0,False,1,2
+364,123,Studio,Studio cozy à proximité de Maréchal-la-Forêt,Maréchal-la-Forêt,113,4,128,2,True,2,2
+365,55,Cabane,Cabane romantique à proximité de Buisson-sur-De Sousa,Buisson-sur-De Sousa,40,1,257,0,True,5,1
+366,186,Loft,Loft lumineux à ArnaudVille,ArnaudVille,442,5,379,2,False,4,2
+367,37,Chalet,Chalet traditionnelle en plein coeur de Lemoinedan,Lemoinedan,141,8,169,2,False,5,1
+368,179,Studio,Studio luxueux pourvu d'un beau panorama sur Peltier,Peltier,461,6,302,2,False,3,3
+369,143,Appartement,Appartement moderne en plein coeur de Royernec,Royernec,202,5,342,1,False,3,3
+370,175,Pavillon,Pavillon typique à Petitjean-sur-Toussaint,Petitjean-sur-Toussaint,106,4,44,2,False,3,3
+371,195,Duplex,Duplex luxueux au cœur de Saint Aimée,Saint Aimée,284,5,147,1,False,4,3
+372,88,Studio,Studio rural dans un quartier branché de Caron-sur-Mer,Caron-sur-Mer,401,4,366,2,False,3,3
+373,158,T2,T2 paisible proche de Letellier,Letellier,366,3,165,0,False,2,3
+374,163,T2,T2 magnifique pourvu d'un beau panorama sur Gay,Gay,497,3,363,1,True,2,2
+375,131,Loft,Loft spacieux à JulienBourg,JulienBourg,433,6,205,1,False,4,1
+376,112,Gite,Gite paisible au cœur de Pasquier,Pasquier,354,2,256,0,True,4,3
+377,99,T2,T2 cozy à proximité de Renault,Renault,475,3,85,0,False,4,3
+378,218,Gite,Gite rural proche de Boucher,Boucher,471,3,56,1,False,2,2
+379,181,Cabane,Cabane cozy au cœur de Huet-sur-Lebon,Huet-sur-Lebon,261,5,122,0,True,4,1
+380,86,Duplex,Duplex luxueux à proximité de Noël,Noël,249,7,234,1,False,1,1
+381,195,Villa,Villa charmant dans un quartier branché de Olivier,Olivier,221,1,179,2,True,1,3
+382,205,Studio,Studio typique dans un quartier branché de Saint Susanne,Saint Susanne,385,6,174,0,True,4,3
+383,103,Yourte,Yourte rustique à Barthelemy,Barthelemy,63,1,167,1,False,5,3
+384,126,Villa,Villa spacieux près de Vaillantnec,Vaillantnec,484,3,190,1,False,2,1
+385,205,Maison,Maison typique au cœur de JourdanVille,JourdanVille,144,3,123,2,True,5,3
+386,156,Duplex,Duplex rural avec vue sur Leroux,Leroux,394,1,207,2,False,5,3
+387,170,Studio,Studio luxueux au cœur de Dufour,Dufour,85,1,39,2,True,4,2
+388,74,Maison,Maison romantique avec vue sur Sainte Sophie,Sainte Sophie,159,8,374,0,True,1,2
+389,114,Maison,Maison luxueux avec vue sur Delmas,Delmas,296,5,333,2,True,4,1
+390,219,Villa,Villa traditionnelle avec vue sur SchmittVille,SchmittVille,88,2,269,0,True,3,3
+391,211,Loft,Loft charmant près de LefebvreVille,LefebvreVille,239,5,97,0,False,2,3
+392,167,Gite,Gite typique près de Sainte Josette-la-Forêt,Sainte Josette-la-Forêt,31,1,358,0,True,5,3
+393,212,Gite,Gite moderne proche de Sainte AiméeBourg,Sainte AiméeBourg,429,2,385,2,True,3,3
+394,129,Loft,Loft traditionnelle en plein coeur de Ramos-les-Bains,Ramos-les-Bains,165,8,40,0,True,1,2
+395,98,Chalet,Chalet spacieux près de Marie,Marie,408,2,63,0,True,2,3
+396,211,Cabane,Cabane rural proche de Guyon-sur-Charrier,Guyon-sur-Charrier,213,8,333,1,True,3,2
+397,203,Duplex,Duplex spacieux avec vue sur Sainte ColetteBourg,Sainte ColetteBourg,234,8,154,1,False,4,3
+398,161,Duplex,Duplex rustique avec vue sur Brunel,Brunel,386,1,96,0,False,5,2
+399,69,Yourte,Yourte rustique en plein coeur de Sainte Vincentnec,Sainte Vincentnec,342,7,198,2,True,2,2
+400,215,Gite,Gite calme avec vue sur Briand,Briand,240,8,38,0,False,3,1
+401,96,Pavillon,Pavillon magnifique pourvu d'un beau panorama sur Meunier,Meunier,410,4,357,1,True,4,3
+402,189,Pavillon,Pavillon familial dans un quartier branché de Saint Marcel-la-Forêt,Saint Marcel-la-Forêt,207,7,91,2,True,1,3
+403,184,Duplex,Duplex paisible pourvu d'un beau panorama sur Lejeune-la-Forêt,Lejeune-la-Forêt,270,8,99,0,False,3,1
+404,136,Chalet,Chalet cozy à Lefèvre-sur-Marin,Lefèvre-sur-Marin,289,4,296,2,False,4,1
+405,176,Appartement,Appartement familial en plein coeur de BessonBourg,BessonBourg,440,8,60,1,False,3,1
+406,142,Gite,Gite moderne au cœur de Morvan,Morvan,236,7,33,2,True,1,3
+407,65,Yourte,Yourte calme à Ollivier-sur-Mer,Ollivier-sur-Mer,290,4,350,2,False,3,2
+408,98,Studio,Studio paisible dans un quartier branché de Rodrigues,Rodrigues,262,6,301,2,False,3,3
+409,72,Gite,Gite moderne avec vue sur Ollivier,Ollivier,418,4,16,1,False,3,3
+410,191,Villa,Villa charmant près de Le Gall,Le Gall,84,1,99,1,True,4,1
+411,203,T2,T2 typique dans un quartier branché de Saint Zoé,Saint Zoé,91,7,125,1,True,3,1
+412,77,Maison,Maison calme au cœur de Saint Philippe,Saint Philippe,354,2,245,1,True,4,1
+413,100,Villa,Villa romantique au cœur de Jacob-la-Forêt,Jacob-la-Forêt,251,8,275,0,True,2,1
+414,132,Maison,Maison romantique près de Pottier,Pottier,481,7,229,2,True,3,2
+415,130,Chalet,Chalet familial à Saint Capucinenec,Saint Capucinenec,442,3,85,1,False,5,2
+416,97,Pavillon,Pavillon luxueux pourvu d'un beau panorama sur Sainte Pierre,Sainte Pierre,141,4,122,2,False,3,3
+417,62,Duplex,Duplex romantique proche de Robin,Robin,307,6,378,0,False,5,2
+418,128,Yourte,Yourte luxueux à proximité de Léger,Léger,412,5,231,0,True,1,2
+419,119,Duplex,Duplex luxueux au cœur de Renard,Renard,58,4,151,0,False,3,1
+420,114,Studio,Studio typique à Lefortboeuf,Lefortboeuf,415,1,198,1,True,5,3
+421,46,Pavillon,Pavillon paisible pourvu d'un beau panorama sur Fontaine-la-Forêt,Fontaine-la-Forêt,144,7,136,2,False,1,2
+422,213,Maison,Maison magnifique à proximité de Sainte Charlottenec,Sainte Charlottenec,380,6,297,0,True,3,1
+423,143,Yourte,Yourte paisible en plein coeur de Wagner,Wagner,145,6,316,2,True,2,2
+424,57,Gite,Gite luxueux proche de Roussel-les-Bains,Roussel-les-Bains,68,3,103,2,True,4,1
+425,101,Maison,Maison romantique à Guillou,Guillou,165,3,97,2,False,1,2
+426,45,Gite,Gite cozy proche de Sainte Astridboeuf,Sainte Astridboeuf,108,6,320,0,False,4,3
+427,71,Villa,Villa moderne près de LemonnierVille,LemonnierVille,431,6,284,0,True,5,1
+428,175,Villa,Villa spacieux proche de Saint Louise,Saint Louise,308,7,62,1,True,2,3
+429,182,Chalet,Chalet rural près de Clerc-les-Bains,Clerc-les-Bains,180,4,400,2,False,5,3
+430,100,Studio,Studio luxueux avec vue sur Sainte Luc,Sainte Luc,207,8,138,2,True,1,3
+431,140,Chalet,Chalet calme à proximité de Bouvier,Bouvier,437,2,212,1,False,1,3
+432,121,Chalet,Chalet magnifique pourvu d'un beau panorama sur Perez-sur-Masson,Perez-sur-Masson,290,8,264,0,False,2,2
+433,157,Villa,Villa moderne avec vue sur Menard,Menard,115,1,335,0,True,2,3
+434,110,Maison,Maison typique avec vue sur Delannoy-les-Bains,Delannoy-les-Bains,305,7,346,0,True,1,2
+435,169,Pavillon,Pavillon cozy près de Torres-sur-Bouchet,Torres-sur-Bouchet,74,2,42,0,False,5,1
+436,202,Yourte,Yourte calme dans un quartier branché de Sauvage,Sauvage,162,7,213,1,False,4,2
+437,63,Studio,Studio luxueux à proximité de Guyon-les-Bains,Guyon-les-Bains,90,1,343,2,True,5,1
+438,213,Pavillon,Pavillon rural avec vue sur Giraud,Giraud,287,2,163,2,False,5,1
+439,152,T2,T2 spacieux en plein coeur de Millet-sur-Carre,Millet-sur-Carre,232,1,257,0,True,2,3
+440,103,Maison,Maison traditionnelle pourvu d'un beau panorama sur Clément,Clément,354,3,167,2,False,1,3
+441,190,Villa,Villa moderne proche de Tessier-les-Bains,Tessier-les-Bains,51,1,308,2,False,5,3
+442,50,Appartement,Appartement typique à Hoareau-sur-Mer,Hoareau-sur-Mer,413,6,123,1,True,2,1
+443,55,Loft,Loft typique à Saint Frédérique,Saint Frédérique,88,3,358,2,True,5,2
+444,142,Cabane,Cabane moderne pourvu d'un beau panorama sur Toussaint-sur-Rolland,Toussaint-sur-Rolland,178,2,143,0,True,5,2
+445,46,Chalet,Chalet rustique près de Sainte Louis-la-Forêt,Sainte Louis-la-Forêt,373,4,66,1,True,2,2
+446,81,Gite,Gite rural en plein coeur de Girard,Girard,345,5,370,2,True,5,3
+447,156,Chalet,Chalet spacieux près de Mauricenec,Mauricenec,116,1,175,0,True,4,2
+448,110,Chalet,Chalet luxueux proche de Bertin-sur-Gérard,Bertin-sur-Gérard,405,6,260,1,False,3,2
+449,191,Gite,Gite moderne pourvu d'un beau panorama sur Sainte JeanBourg,Sainte JeanBourg,119,2,158,0,True,3,3
+450,65,Cabane,Cabane charmant avec vue sur Sainte Pénélope,Sainte Pénélope,68,1,274,2,True,5,3
+451,179,Maison,Maison calme dans un quartier branché de Mailletdan,Mailletdan,48,5,293,2,False,2,2
+452,74,Maison,Maison calme dans un quartier branché de Saint Michèle-sur-Mer,Saint Michèle-sur-Mer,425,5,83,1,True,4,2
+453,43,Villa,Villa luxueux au cœur de Da Costa,Da Costa,152,3,278,0,False,2,1
+454,185,Yourte,Yourte charmant proche de Letellier,Letellier,404,8,198,0,True,4,1
+455,184,Appartement,Appartement rural à Weber-les-Bains,Weber-les-Bains,149,1,357,0,False,4,2
+456,82,Gite,Gite cozy au cœur de Leclerc-sur-Mer,Leclerc-sur-Mer,362,6,67,2,False,3,3
+457,205,Villa,Villa spacieux proche de Petitjean,Petitjean,364,7,202,2,True,5,2
+458,220,Maison,Maison romantique dans un quartier branché de Humbert,Humbert,237,6,191,1,False,5,1
+459,184,Villa,Villa familial proche de Lejeune,Lejeune,114,4,54,2,False,2,1
+460,71,Duplex,Duplex rural proche de Leroy,Leroy,338,2,353,0,False,3,3
+461,135,Appartement,Appartement luxueux en plein coeur de Charles,Charles,275,8,122,2,True,4,1
+462,95,Loft,Loft rustique au cœur de Maurice,Maurice,323,3,83,2,True,5,1
+463,114,Studio,Studio traditionnelle proche de Menardboeuf,Menardboeuf,122,7,321,2,True,3,1
+464,158,Loft,Loft lumineux en plein coeur de Pottier-sur-Jourdan,Pottier-sur-Jourdan,271,8,102,0,False,5,1
+465,169,Yourte,Yourte lumineux proche de ClémentVille,ClémentVille,367,5,100,2,False,4,3
+466,132,Yourte,Yourte typique avec vue sur Lucasboeuf,Lucasboeuf,223,7,82,0,True,2,3
+467,81,Villa,Villa paisible à proximité de Torres-sur-Mer,Torres-sur-Mer,106,2,105,1,True,5,3
+468,218,Appartement,Appartement familial avec vue sur Neveunec,Neveunec,367,3,323,2,True,4,3
+469,123,Maison,Maison paisible près de Boucher-sur-Legrand,Boucher-sur-Legrand,52,7,132,1,False,3,3
+470,44,Pavillon,Pavillon spacieux avec vue sur Saint Bernardboeuf,Saint Bernardboeuf,98,5,259,0,True,3,3
+471,217,Villa,Villa traditionnelle à proximité de Georges,Georges,126,1,378,2,True,5,3
+472,83,Appartement,Appartement cozy pourvu d'un beau panorama sur Seguin,Seguin,222,4,367,1,False,3,1
+473,171,Duplex,Duplex luxueux à proximité de Lacombe-sur-Bouvet,Lacombe-sur-Bouvet,329,5,148,2,False,5,2
+474,189,Yourte,Yourte luxueux à Saint Philippe,Saint Philippe,233,4,226,2,False,2,2
+475,198,Villa,Villa familial pourvu d'un beau panorama sur Legendrenec,Legendrenec,159,5,310,1,False,2,3
+476,57,Appartement,Appartement familial dans un quartier branché de Delaunay,Delaunay,430,3,66,0,False,3,3
+477,210,Yourte,Yourte rustique au cœur de Payet,Payet,229,1,61,0,False,5,2
+478,59,Appartement,Appartement traditionnelle avec vue sur Dupont-les-Bains,Dupont-les-Bains,143,6,55,2,True,4,2
+479,150,Yourte,Yourte traditionnelle pourvu d'un beau panorama sur Roy,Roy,394,1,104,2,False,4,1
+480,129,Loft,Loft traditionnelle pourvu d'un beau panorama sur Teixeiraboeuf,Teixeiraboeuf,129,1,321,2,True,5,1
+481,203,Cabane,Cabane rural au cœur de PayetBourg,PayetBourg,152,1,95,0,False,4,2
+482,87,Cabane,Cabane spacieux à proximité de Lacombe,Lacombe,330,4,280,0,True,1,3
+483,188,T2,T2 calme pourvu d'un beau panorama sur Lesage-les-Bains,Lesage-les-Bains,328,6,192,1,True,5,1
+484,165,Gite,Gite lumineux à proximité de Ferreira,Ferreira,32,5,104,1,True,5,1
+485,172,Villa,Villa rural à Bertrand,Bertrand,89,5,290,2,False,4,2
+486,117,Yourte,Yourte magnifique en plein coeur de Didier,Didier,154,6,249,2,False,5,1
+487,116,Gite,Gite traditionnelle avec vue sur Letellier,Letellier,64,7,339,0,True,3,2
+488,185,Chalet,Chalet romantique pourvu d'un beau panorama sur Perret,Perret,34,5,142,1,True,4,3
+489,123,Pavillon,Pavillon moderne près de Charles,Charles,313,3,258,1,False,2,3
+490,207,T2,T2 charmant proche de Samson-sur-Aubry,Samson-sur-Aubry,379,4,270,2,True,2,3
+491,64,Loft,Loft typique à Bouviernec,Bouviernec,147,4,142,2,False,2,1
+492,181,Appartement,Appartement luxueux avec vue sur Gomes,Gomes,369,8,329,0,True,4,2
+493,96,Yourte,Yourte familial près de Salmon-les-Bains,Salmon-les-Bains,489,5,266,0,False,4,1
+494,101,Yourte,Yourte cozy proche de Descampsdan,Descampsdan,299,7,259,2,True,5,2
+495,204,Maison,Maison familial proche de Saint Henri,Saint Henri,91,8,176,2,True,1,3
+496,188,Loft,Loft lumineux à proximité de Saint Jules,Saint Jules,81,6,200,2,False,2,3
+497,216,T2,T2 traditionnelle dans un quartier branché de Sainte Raymond,Sainte Raymond,271,6,202,0,False,4,1
+498,121,Maison,Maison rural près de Munoz,Munoz,467,7,158,1,True,5,1
+499,101,Yourte,Yourte paisible dans un quartier branché de NguyenBourg,NguyenBourg,81,5,135,2,False,4,1
+500,201,Duplex,Duplex familial proche de Fournierdan,Fournierdan,442,1,105,1,False,2,3
+501,197,Villa,Villa charmant pourvu d'un beau panorama sur Lacombe,Lacombe,191,8,168,1,True,4,1
+502,171,Pavillon,Pavillon cozy proche de Valléedan,Valléedan,140,5,258,2,True,4,3
+503,87,Chalet,Chalet rural à Marie-les-Bains,Marie-les-Bains,214,5,191,0,False,1,2
+504,173,Cabane,Cabane lumineux dans un quartier branché de Sainte Éric-sur-Mer,Sainte Éric-sur-Mer,324,3,160,1,False,5,2
+505,121,Pavillon,Pavillon calme en plein coeur de Arnaud,Arnaud,70,7,329,1,False,2,1
+506,168,Cabane,Cabane spacieux près de Bouvet,Bouvet,353,7,51,0,True,3,1
+507,88,Chalet,Chalet luxueux près de Maillard-sur-Mer,Maillard-sur-Mer,179,5,324,2,False,3,2
+508,217,Chalet,Chalet familial pourvu d'un beau panorama sur Thomas-sur-Laine,Thomas-sur-Laine,241,3,109,0,True,2,3
+509,202,T2,T2 typique avec vue sur Arnaud-sur-Delattre,Arnaud-sur-Delattre,115,7,67,0,True,4,3
+510,49,Studio,Studio magnifique au cœur de Saint Paulinedan,Saint Paulinedan,233,2,68,1,True,1,3
+511,218,Maison,Maison typique à Sainte André-la-Forêt,Sainte André-la-Forêt,156,5,241,2,True,2,3
+512,124,Duplex,Duplex cozy au cœur de Sainte AlixBourg,Sainte AlixBourg,369,6,181,1,False,5,2
+513,63,Villa,Villa rustique en plein coeur de Brunet,Brunet,387,3,317,2,False,5,2
+514,146,Villa,Villa traditionnelle pourvu d'un beau panorama sur Saint Céline,Saint Céline,495,6,261,2,True,1,2
+515,193,T2,T2 spacieux près de De Sousa-la-Forêt,De Sousa-la-Forêt,163,3,170,0,True,5,1
+516,198,Chalet,Chalet familial à Descamps-sur-Thomas,Descamps-sur-Thomas,303,1,367,1,False,3,1
+517,159,Maison,Maison lumineux à Bertrand,Bertrand,148,1,295,1,True,4,3
+518,158,Maison,Maison typique à proximité de Sauvage-sur-Germain,Sauvage-sur-Germain,113,7,208,0,False,1,2
+519,143,Cabane,Cabane romantique dans un quartier branché de Dumont-sur-Lecomte,Dumont-sur-Lecomte,421,5,160,2,False,4,1
+520,144,Appartement,Appartement rustique proche de Sainte Tristan,Sainte Tristan,178,2,341,1,False,3,3
+521,94,Yourte,Yourte typique en plein coeur de Saint Emmanuelle,Saint Emmanuelle,194,1,92,0,True,2,1
+522,210,T2,T2 rustique à Weber-sur-Morin,Weber-sur-Morin,396,8,387,0,True,1,1
+523,88,Studio,Studio typique en plein coeur de Adam-les-Bains,Adam-les-Bains,205,7,174,1,False,4,3
+524,207,Studio,Studio moderne près de Pires,Pires,461,3,43,1,False,1,3
+525,193,Gite,Gite typique proche de BlancVille,BlancVille,488,5,210,0,True,2,2
+526,98,Gite,Gite charmant dans un quartier branché de Goncalves,Goncalves,47,4,250,2,True,5,3
+527,174,Loft,Loft spacieux en plein coeur de Valettenec,Valettenec,378,5,180,0,True,5,3
+528,164,Appartement,Appartement familial à Jourdan,Jourdan,356,5,116,1,True,2,1
+529,39,Loft,Loft rural à proximité de Mathieu,Mathieu,37,3,156,2,True,4,1
+530,144,Studio,Studio lumineux au cœur de Marin,Marin,431,8,367,2,True,3,1
+531,100,Loft,Loft familial proche de Guyon-la-Forêt,Guyon-la-Forêt,76,6,335,0,True,3,3
+532,138,Duplex,Duplex magnifique pourvu d'un beau panorama sur Payet-sur-Pelletier,Payet-sur-Pelletier,84,3,264,0,False,5,3
+533,76,Chalet,Chalet charmant en plein coeur de Sainte Denise-sur-Mer,Sainte Denise-sur-Mer,128,1,367,1,False,2,2
+534,113,Studio,Studio charmant en plein coeur de Cohennec,Cohennec,254,5,292,2,False,2,3
+535,101,Duplex,Duplex rural pourvu d'un beau panorama sur Royernec,Royernec,195,8,155,2,True,1,3
+536,94,Duplex,Duplex traditionnelle en plein coeur de Sainte Suzanneboeuf,Sainte Suzanneboeuf,449,5,292,1,False,1,3
+537,73,Villa,Villa charmant à proximité de Lemoine-sur-Gay,Lemoine-sur-Gay,124,1,332,1,True,3,3
+538,39,Appartement,Appartement paisible pourvu d'un beau panorama sur MorinVille,MorinVille,228,4,283,2,False,5,1
+539,126,Yourte,Yourte rural à Leblancdan,Leblancdan,239,6,71,0,True,1,1
+540,81,Duplex,Duplex typique au cœur de Jourdan,Jourdan,84,8,113,0,True,5,3
+541,169,Maison,Maison romantique en plein coeur de Costa,Costa,349,5,40,1,True,5,3
+542,156,Appartement,Appartement calme au cœur de LombardBourg,LombardBourg,136,8,55,1,True,3,3
+543,204,Pavillon,Pavillon paisible à proximité de Bigot,Bigot,218,1,330,1,True,1,2
+544,56,Appartement,Appartement romantique dans un quartier branché de Chevalierdan,Chevalierdan,79,2,386,0,False,2,1
+545,177,Villa,Villa lumineux dans un quartier branché de Gérard,Gérard,350,3,300,2,False,1,3
+546,53,Yourte,Yourte luxueux près de Pottier,Pottier,264,7,68,0,True,5,2
+547,131,Villa,Villa luxueux près de Menard,Menard,110,8,195,1,False,3,2
+548,156,Cabane,Cabane paisible à proximité de Launay-la-Forêt,Launay-la-Forêt,401,6,326,0,True,4,3
+549,194,Pavillon,Pavillon rural à Rousseau-sur-Courtois,Rousseau-sur-Courtois,261,8,218,0,True,3,3
+550,116,Studio,Studio rustique pourvu d'un beau panorama sur Saint DeniseBourg,Saint DeniseBourg,485,5,18,1,True,2,2
+551,190,Studio,Studio calme à Lamynec,Lamynec,313,3,63,0,False,3,1
+552,180,Duplex,Duplex rural à Sainte Margaud-la-Forêt,Sainte Margaud-la-Forêt,485,4,134,1,False,1,3
+553,54,Maison,Maison charmant dans un quartier branché de Adam,Adam,69,6,262,0,False,5,1
+554,160,Yourte,Yourte cozy à Faure-sur-Lecoq,Faure-sur-Lecoq,404,7,55,0,False,3,2
+555,148,Maison,Maison paisible avec vue sur DurandBourg,DurandBourg,424,4,397,2,True,4,1
+556,71,T2,T2 cozy pourvu d'un beau panorama sur Colin-les-Bains,Colin-les-Bains,193,3,182,2,True,2,1
+557,105,Cabane,Cabane familial à proximité de LambertBourg,LambertBourg,415,2,128,1,False,4,1
+558,193,Duplex,Duplex moderne près de Fischer-la-Forêt,Fischer-la-Forêt,273,1,295,1,False,1,2
+559,199,Villa,Villa magnifique à proximité de Coste,Coste,387,3,84,1,True,4,2
+560,208,Cabane,Cabane romantique dans un quartier branché de Boulaydan,Boulaydan,345,4,139,0,False,4,2
+561,185,Cabane,Cabane moderne avec vue sur Aubry-sur-Leblanc,Aubry-sur-Leblanc,373,7,231,1,False,2,2
+562,55,Chalet,Chalet magnifique au cœur de Lecomte,Lecomte,186,3,194,2,False,5,1
+563,40,Gite,Gite calme au cœur de Chevalier,Chevalier,448,4,117,2,False,2,3
+564,198,Appartement,Appartement charmant avec vue sur Poirier-sur-Maillet,Poirier-sur-Maillet,57,4,332,0,False,1,2
+565,121,Pavillon,Pavillon traditionnelle avec vue sur Sainte ÉlisabethVille,Sainte ÉlisabethVille,260,8,26,1,True,5,1
+566,73,Loft,Loft romantique pourvu d'un beau panorama sur Sainte Gabriel,Sainte Gabriel,414,5,295,1,True,1,2
+567,64,Yourte,Yourte cozy pourvu d'un beau panorama sur Saint Marcelle,Saint Marcelle,160,3,45,1,True,5,2
+568,120,Studio,Studio luxueux en plein coeur de Jacquesnec,Jacquesnec,34,2,213,2,False,3,1
+569,86,Studio,Studio paisible à Pages-sur-Coulon,Pages-sur-Coulon,482,7,133,1,True,3,2
+570,120,Yourte,Yourte moderne pourvu d'un beau panorama sur Maurice,Maurice,125,4,271,1,True,1,1
+571,206,Villa,Villa rural à Alves-sur-Blot,Alves-sur-Blot,280,7,396,0,True,3,3
+572,86,Chalet,Chalet luxueux près de HernandezBourg,HernandezBourg,184,4,271,1,True,3,2
+573,42,Studio,Studio traditionnelle pourvu d'un beau panorama sur Dufour,Dufour,145,3,189,1,True,1,3
+574,55,Maison,Maison luxueux pourvu d'un beau panorama sur Saint Frédéric,Saint Frédéric,343,4,228,0,True,4,2
+575,121,Yourte,Yourte familial près de Saint André,Saint André,307,3,120,2,True,5,3
+576,101,Cabane,Cabane paisible dans un quartier branché de Leduc,Leduc,100,5,367,2,True,4,1
+577,50,Cabane,Cabane rural proche de Delahaye,Delahaye,64,2,109,1,True,1,2
+578,97,Maison,Maison traditionnelle à proximité de Nguyen,Nguyen,256,5,92,0,True,2,1
+579,131,Studio,Studio lumineux à AubertBourg,AubertBourg,320,4,320,0,True,1,2
+580,86,Appartement,Appartement rustique en plein coeur de Pires,Pires,287,8,379,2,False,2,2
+581,152,Gite,Gite rustique en plein coeur de Carondan,Carondan,113,4,130,0,False,1,2
+582,41,Maison,Maison charmant dans un quartier branché de SimonBourg,SimonBourg,373,4,119,0,True,4,3
+583,162,Gite,Gite paisible près de Brunet,Brunet,264,4,233,1,True,5,3
+584,111,Maison,Maison spacieux près de Valléedan,Valléedan,343,1,281,0,False,4,1
+585,38,Loft,Loft romantique pourvu d'un beau panorama sur Sainte Isabelle,Sainte Isabelle,232,1,300,1,True,2,2
+586,81,Gite,Gite calme à proximité de Renaud,Renaud,185,5,251,0,False,3,3
+587,96,Studio,Studio calme pourvu d'un beau panorama sur Colas,Colas,102,8,345,1,True,5,1
+588,54,Duplex,Duplex rustique pourvu d'un beau panorama sur Rouxboeuf,Rouxboeuf,231,7,180,1,True,2,2
+589,71,Yourte,Yourte calme dans un quartier branché de Saint Louise,Saint Louise,262,2,143,1,True,1,1
+590,179,Appartement,Appartement luxueux en plein coeur de Legrosdan,Legrosdan,215,2,283,2,False,5,3
+591,101,Duplex,Duplex romantique à proximité de Godard-sur-Foucher,Godard-sur-Foucher,224,1,102,1,True,2,1
+592,70,Duplex,Duplex spacieux au cœur de CharpentierVille,CharpentierVille,187,5,388,1,False,2,1
+593,66,Duplex,Duplex cozy dans un quartier branché de Alexandredan,Alexandredan,348,5,21,1,False,4,3
+594,215,Studio,Studio typique en plein coeur de Maurydan,Maurydan,141,8,247,1,False,1,3
+595,122,Yourte,Yourte typique au cœur de Delannoy,Delannoy,481,5,332,2,True,1,1
+596,65,Duplex,Duplex luxueux au cœur de Saint Audrey,Saint Audrey,208,1,89,0,False,3,1
+597,138,Studio,Studio spacieux avec vue sur Gomes-sur-Lenoir,Gomes-sur-Lenoir,121,3,359,1,True,4,3
+598,66,Yourte,Yourte calme près de Sainte Madeleinenec,Sainte Madeleinenec,48,2,168,1,False,4,1
+599,92,Maison,Maison moderne pourvu d'un beau panorama sur Ferreiradan,Ferreiradan,179,8,83,0,False,3,3
+600,155,Maison,Maison typique pourvu d'un beau panorama sur Imbert-sur-Perrot,Imbert-sur-Perrot,386,4,328,0,True,5,3
+601,169,Cabane,Cabane moderne pourvu d'un beau panorama sur Rochernec,Rochernec,277,5,233,2,False,3,3
+602,207,Yourte,Yourte calme près de Saint Sébastien,Saint Sébastien,96,8,281,2,False,4,1
+603,190,Yourte,Yourte charmant dans un quartier branché de Lelièvre,Lelièvre,178,4,15,0,True,4,3
+604,134,Appartement,Appartement magnifique dans un quartier branché de Navarro,Navarro,345,7,226,0,False,3,3
+605,54,Cabane,Cabane cozy dans un quartier branché de Guillou,Guillou,357,4,368,1,False,1,2
+606,69,T2,T2 romantique pourvu d'un beau panorama sur Coste,Coste,195,1,73,2,False,3,2
+607,71,Pavillon,Pavillon paisible au cœur de Marion,Marion,119,4,184,1,False,4,1
+608,207,Cabane,Cabane familial proche de Payet-la-Forêt,Payet-la-Forêt,109,8,289,1,False,4,3
+609,55,Studio,Studio traditionnelle pourvu d'un beau panorama sur Delattreboeuf,Delattreboeuf,319,6,299,2,True,2,3
+610,182,Cabane,Cabane magnifique près de Renard-sur-Mer,Renard-sur-Mer,499,6,48,0,False,1,2
+611,121,Maison,Maison paisible pourvu d'un beau panorama sur Blot,Blot,114,7,110,2,True,3,3
+612,36,Chalet,Chalet traditionnelle au cœur de Sainte Gilles-les-Bains,Sainte Gilles-les-Bains,241,2,269,0,False,4,2
+613,104,Loft,Loft traditionnelle pourvu d'un beau panorama sur Barbier,Barbier,119,2,206,0,True,1,2
+614,185,Villa,Villa magnifique au cœur de Marin-sur-Roussel,Marin-sur-Roussel,277,3,112,1,False,5,2
+615,199,Chalet,Chalet magnifique proche de Teixeira-la-Forêt,Teixeira-la-Forêt,476,2,279,2,True,2,3
+616,138,Studio,Studio spacieux en plein coeur de Lacroix,Lacroix,395,2,17,1,True,5,1
+617,102,Chalet,Chalet calme en plein coeur de RousseauVille,RousseauVille,53,2,281,2,False,1,3
+618,212,T2,T2 rural dans un quartier branché de Bertin,Bertin,132,4,161,1,False,4,3
+619,72,Appartement,Appartement rustique à Labbé,Labbé,110,5,73,0,True,2,3
+620,171,Chalet,Chalet rural pourvu d'un beau panorama sur Roger,Roger,168,3,375,1,True,2,1
+621,122,T2,T2 romantique près de DavidBourg,DavidBourg,257,1,81,0,False,1,1
+622,102,Maison,Maison moderne au cœur de Perret,Perret,248,7,106,2,False,5,2
+623,47,T2,T2 paisible près de Saint Georges-sur-Mer,Saint Georges-sur-Mer,131,2,253,2,True,1,3
+624,59,Gite,Gite familial avec vue sur Poirierboeuf,Poirierboeuf,188,8,255,0,True,2,3
+625,44,T2,T2 spacieux près de Lecoq,Lecoq,123,6,181,1,False,1,1
+626,215,Gite,Gite rural avec vue sur Sainte Henri,Sainte Henri,275,8,102,1,False,5,3
+627,109,Duplex,Duplex moderne pourvu d'un beau panorama sur TexierBourg,TexierBourg,237,2,181,2,True,3,3
+628,129,Gite,Gite lumineux à proximité de Sainte Susanne,Sainte Susanne,241,4,332,0,True,4,2
+629,142,Appartement,Appartement typique près de FaivreBourg,FaivreBourg,446,7,237,2,False,5,3
+630,80,Loft,Loft luxueux proche de Saint ValentineVille,Saint ValentineVille,372,2,393,2,False,1,3
+631,150,Yourte,Yourte rural en plein coeur de Duval-les-Bains,Duval-les-Bains,314,2,242,0,False,4,1
+632,116,Yourte,Yourte luxueux avec vue sur Saint Agnès-les-Bains,Saint Agnès-les-Bains,446,7,182,1,True,1,1
+633,80,Duplex,Duplex magnifique au cœur de Neveu,Neveu,105,3,246,2,False,4,3
+634,81,Yourte,Yourte typique en plein coeur de Ledouxdan,Ledouxdan,135,6,168,2,False,4,3
+635,203,Chalet,Chalet lumineux avec vue sur Saint Madeleineboeuf,Saint Madeleineboeuf,34,7,80,1,True,3,3
+636,217,Studio,Studio charmant au cœur de Dos Santos,Dos Santos,316,6,71,1,True,2,2
+637,149,Pavillon,Pavillon luxueux à proximité de Saint Brigittenec,Saint Brigittenec,192,7,222,1,False,5,1
+638,174,Cabane,Cabane familial proche de Saint Victoire,Saint Victoire,101,4,299,1,False,4,1
+639,45,T2,T2 rustique proche de Leblanc-la-Forêt,Leblanc-la-Forêt,35,2,346,0,True,4,3
+640,92,Maison,Maison moderne proche de PicardBourg,PicardBourg,100,7,248,2,False,5,1
+641,119,Gite,Gite spacieux pourvu d'un beau panorama sur Guichard,Guichard,312,8,211,1,True,2,2
+642,161,Yourte,Yourte lumineux au cœur de Alves-sur-Mer,Alves-sur-Mer,285,4,379,2,False,4,3
+643,98,Yourte,Yourte cozy près de Chrétien,Chrétien,49,8,375,1,True,5,2
+644,113,Pavillon,Pavillon rustique avec vue sur De Oliveira-sur-Mer,De Oliveira-sur-Mer,403,5,253,2,True,5,3
+645,146,Appartement,Appartement familial dans un quartier branché de Gilbert,Gilbert,352,2,365,2,False,5,1
+646,105,Chalet,Chalet magnifique pourvu d'un beau panorama sur Lejeunedan,Lejeunedan,35,8,247,2,False,5,3
+647,204,Chalet,Chalet rural à proximité de Normandboeuf,Normandboeuf,438,5,163,0,True,5,3
+648,213,T2,T2 cozy à Sainte William,Sainte William,352,8,311,0,True,3,3
+649,169,Yourte,Yourte traditionnelle au cœur de Saint Émile,Saint Émile,278,2,79,2,True,3,2
+650,83,Duplex,Duplex traditionnelle à Gomes,Gomes,469,5,22,2,True,5,1
+651,38,Yourte,Yourte luxueux proche de Leleu-les-Bains,Leleu-les-Bains,258,6,104,1,True,4,1
+652,49,Villa,Villa rural au cœur de Bonnetnec,Bonnetnec,73,3,319,0,False,4,2
+653,142,Loft,Loft charmant en plein coeur de Saint Hortense,Saint Hortense,356,3,122,2,False,1,3
+654,84,T2,T2 cozy avec vue sur Sainte Astrid,Sainte Astrid,115,8,219,1,False,4,3
+655,127,Villa,Villa spacieux dans un quartier branché de Bazin-la-Forêt,Bazin-la-Forêt,379,7,257,1,True,5,2
+656,213,Studio,Studio calme à Barre,Barre,438,8,210,2,False,5,3
+657,198,Studio,Studio calme avec vue sur Sainte Éléonore,Sainte Éléonore,302,6,236,2,False,3,2
+658,94,T2,T2 traditionnelle avec vue sur Caron-sur-Bonnin,Caron-sur-Bonnin,365,7,251,2,True,5,1
+659,50,Villa,Villa luxueux près de Cohen-sur-Mer,Cohen-sur-Mer,383,3,175,2,True,1,1
+660,46,Studio,Studio moderne à proximité de Ferranddan,Ferranddan,298,2,365,1,False,2,3
+661,121,T2,T2 typique à Delahaye,Delahaye,47,1,332,0,True,5,3
+662,60,Loft,Loft charmant avec vue sur Diallo-sur-Mer,Diallo-sur-Mer,91,2,324,0,False,5,1
+663,209,Appartement,Appartement traditionnelle proche de Clément,Clément,180,8,353,0,False,3,2
+664,197,Pavillon,Pavillon traditionnelle près de Sainte Amélie,Sainte Amélie,112,2,156,0,False,4,2
+665,45,Studio,Studio paisible à Dijoux,Dijoux,165,3,240,0,False,2,3
+666,192,Maison,Maison luxueux proche de Jacquet-sur-Mer,Jacquet-sur-Mer,281,2,88,2,False,2,3
+667,78,Cabane,Cabane calme avec vue sur Sainte Dorothéeboeuf,Sainte Dorothéeboeuf,256,5,67,0,True,1,3
+668,151,Pavillon,Pavillon magnifique à Simon,Simon,258,1,269,0,True,1,3
+669,109,Maison,Maison rustique à Sainte Olivier,Sainte Olivier,388,6,215,2,True,5,3
+670,88,Gite,Gite spacieux en plein coeur de Pages,Pages,236,2,291,0,True,4,3
+671,132,Gite,Gite lumineux avec vue sur BodinBourg,BodinBourg,304,6,185,2,False,4,1
+672,49,Cabane,Cabane rural avec vue sur Sainte Raymond,Sainte Raymond,303,6,56,1,False,2,1
+673,72,Villa,Villa spacieux au cœur de MonnierBourg,MonnierBourg,368,4,168,2,False,1,3
+674,167,Pavillon,Pavillon familial près de Saint Caroline,Saint Caroline,73,8,391,0,True,1,1
+675,176,Studio,Studio familial dans un quartier branché de Baudry,Baudry,229,2,291,2,False,4,3
+676,181,Gite,Gite cozy au cœur de Sainte Yves,Sainte Yves,203,1,187,2,True,4,1
+677,75,Loft,Loft familial pourvu d'un beau panorama sur Vallet,Vallet,377,3,394,2,True,1,1
+678,150,Pavillon,Pavillon familial proche de Moreno-sur-Delannoy,Moreno-sur-Delannoy,364,1,256,2,True,2,3
+679,165,Cabane,Cabane cozy proche de Valentin-sur-Mer,Valentin-sur-Mer,118,1,172,0,False,5,1
+680,160,Yourte,Yourte paisible avec vue sur Ribeiro,Ribeiro,448,2,73,1,True,1,1
+681,95,Maison,Maison magnifique près de Martineau,Martineau,457,7,181,0,True,3,1
+682,165,Studio,Studio rural proche de Maillet-sur-Joly,Maillet-sur-Joly,62,2,155,0,False,2,3
+683,196,Chalet,Chalet rustique pourvu d'un beau panorama sur Dijoux-sur-Mer,Dijoux-sur-Mer,254,4,312,0,True,1,3
+684,86,Yourte,Yourte magnifique à proximité de Sainte Diane-sur-Mer,Sainte Diane-sur-Mer,110,1,264,0,True,1,1
+685,66,Appartement,Appartement spacieux à De Sousa,De Sousa,385,8,369,0,True,2,3
+686,154,T2,T2 familial pourvu d'un beau panorama sur Saint Michèlenec,Saint Michèlenec,240,4,104,2,True,5,1
+687,150,Pavillon,Pavillon lumineux en plein coeur de FaureBourg,FaureBourg,75,5,193,1,True,5,1
+688,125,Loft,Loft romantique avec vue sur Sainte Gilles,Sainte Gilles,78,6,291,2,True,4,3
+689,191,Cabane,Cabane traditionnelle dans un quartier branché de Benoitdan,Benoitdan,57,4,72,0,False,4,1
+690,163,Duplex,Duplex cozy au cœur de Sainte Margaretnec,Sainte Margaretnec,360,6,160,0,False,3,2
+691,60,Yourte,Yourte cozy en plein coeur de Vaillant-sur-Paul,Vaillant-sur-Paul,83,1,290,0,True,1,2
+692,108,Villa,Villa moderne avec vue sur Aubrydan,Aubrydan,488,4,384,1,False,4,1
+693,161,Pavillon,Pavillon typique près de Besnarddan,Besnarddan,428,2,181,0,True,2,3
+694,82,Maison,Maison spacieux dans un quartier branché de Goncalves-les-Bains,Goncalves-les-Bains,486,4,52,1,False,1,2
+695,36,Duplex,Duplex calme dans un quartier branché de Rodriguezdan,Rodriguezdan,342,8,106,1,False,2,2
+696,54,Pavillon,Pavillon luxueux dans un quartier branché de DumontBourg,DumontBourg,213,5,118,1,True,1,3
+697,40,Yourte,Yourte traditionnelle au cœur de Pineau,Pineau,99,2,253,1,False,2,2
+698,162,Loft,Loft lumineux à David-les-Bains,David-les-Bains,110,3,310,2,True,1,2
+699,208,Villa,Villa paisible en plein coeur de LemaîtreBourg,LemaîtreBourg,140,8,251,1,True,4,3
+700,47,Loft,Loft rural dans un quartier branché de Lejeune-sur-Masson,Lejeune-sur-Masson,252,4,317,0,True,4,1
+701,70,Studio,Studio charmant en plein coeur de Sainte Henriette-la-Forêt,Sainte Henriette-la-Forêt,423,1,232,2,False,4,3
+702,61,Appartement,Appartement familial en plein coeur de Saint Georges,Saint Georges,153,2,300,0,False,2,1
+703,181,Chalet,Chalet typique à Schneider,Schneider,361,2,23,1,False,2,3
+704,111,Gite,Gite familial au cœur de Bailly,Bailly,267,3,375,1,True,3,3
+705,82,Gite,Gite paisible au cœur de Vallée,Vallée,351,2,212,2,False,5,1
+706,133,T2,T2 magnifique à proximité de Saint Guy,Saint Guy,168,4,365,0,False,1,3
+707,87,Cabane,Cabane calme près de De Oliveira-sur-Rousseau,De Oliveira-sur-Rousseau,56,2,211,1,False,5,1
+708,56,Chalet,Chalet rustique près de Jacquet,Jacquet,361,2,302,2,True,2,2
+709,204,Loft,Loft moderne pourvu d'un beau panorama sur Vidal,Vidal,362,8,392,2,True,2,2
+710,173,Chalet,Chalet romantique à BernardBourg,BernardBourg,378,7,156,0,True,3,2
+711,49,Gite,Gite romantique en plein coeur de LévêqueBourg,LévêqueBourg,299,2,255,2,False,4,3
+712,171,Chalet,Chalet typique avec vue sur Sainte Christine,Sainte Christine,486,8,59,0,False,2,2
+713,195,Appartement,Appartement rustique avec vue sur Ruiz-sur-Moreno,Ruiz-sur-Moreno,171,2,371,0,False,2,1
+714,144,Villa,Villa traditionnelle au cœur de Marquesnec,Marquesnec,243,3,257,1,False,4,3
+715,191,Cabane,Cabane traditionnelle au cœur de Fouquet-les-Bains,Fouquet-les-Bains,126,2,26,0,False,4,3
+716,132,Chalet,Chalet familial près de Bodin,Bodin,333,8,249,1,True,3,1
+717,129,T2,T2 familial dans un quartier branché de Samsondan,Samsondan,220,5,39,0,False,3,2
+718,197,Duplex,Duplex charmant proche de Gérardboeuf,Gérardboeuf,304,5,108,0,True,2,1
+719,103,Appartement,Appartement rural au cœur de Sainte Amélie-sur-Mer,Sainte Amélie-sur-Mer,324,3,240,1,False,2,1
+720,145,Villa,Villa luxueux au cœur de MaillotVille,MaillotVille,192,6,90,1,False,5,1
+721,84,Villa,Villa moderne à Guyon-la-Forêt,Guyon-la-Forêt,42,7,270,0,False,3,1
+722,37,Studio,Studio romantique pourvu d'un beau panorama sur Saint MathildeVille,Saint MathildeVille,199,5,257,1,True,5,3
+723,141,Gite,Gite charmant près de Lombard-sur-Leleu,Lombard-sur-Leleu,87,8,35,0,True,3,1
+724,77,Maison,Maison familial dans un quartier branché de Guilbert,Guilbert,212,2,182,0,True,5,3
+725,121,Loft,Loft typique à Saint LéonVille,Saint LéonVille,41,2,290,1,True,5,2
+726,147,Loft,Loft rural en plein coeur de Barbe-sur-Roche,Barbe-sur-Roche,338,1,356,1,False,2,3
+727,153,Maison,Maison spacieux près de GaudinVille,GaudinVille,220,1,160,1,False,3,2
+728,50,Villa,Villa typique avec vue sur Saint Alfred-la-Forêt,Saint Alfred-la-Forêt,402,8,394,1,False,3,1
+729,203,Pavillon,Pavillon charmant à proximité de Moulin,Moulin,488,7,86,2,True,2,1
+730,129,T2,T2 paisible en plein coeur de Hebert-sur-Clément,Hebert-sur-Clément,298,6,48,2,False,1,1
+731,76,Maison,Maison spacieux à Seguinboeuf,Seguinboeuf,119,8,378,2,True,2,1
+732,170,Maison,Maison romantique à PruvostVille,PruvostVille,281,1,169,2,False,4,3
+733,198,Pavillon,Pavillon typique en plein coeur de Simonboeuf,Simonboeuf,43,1,93,1,False,4,1
+734,218,Cabane,Cabane spacieux à Arnaudnec,Arnaudnec,121,8,367,2,True,1,1
+735,189,T2,T2 moderne en plein coeur de Sainte Alex,Sainte Alex,336,6,312,1,False,3,3
+736,211,Cabane,Cabane charmant en plein coeur de Robin,Robin,448,2,206,2,True,3,1
+737,202,Yourte,Yourte rustique au cœur de Saint Élodie-les-Bains,Saint Élodie-les-Bains,193,8,369,0,False,2,1
+738,114,T2,T2 spacieux près de Meunier,Meunier,355,6,39,1,False,5,3
+739,175,Appartement,Appartement typique pourvu d'un beau panorama sur Adam,Adam,422,3,63,2,True,5,2
+740,168,Chalet,Chalet traditionnelle à Saint Thibaultnec,Saint Thibaultnec,380,6,64,2,False,2,1
+741,141,Duplex,Duplex traditionnelle pourvu d'un beau panorama sur Lopez,Lopez,220,8,225,1,True,1,1
+742,77,Duplex,Duplex typique pourvu d'un beau panorama sur Germain-sur-Arnaud,Germain-sur-Arnaud,455,4,301,2,True,4,2
+743,120,Appartement,Appartement paisible avec vue sur Saint Théophile,Saint Théophile,97,1,260,1,False,3,1
+744,177,Gite,Gite magnifique pourvu d'un beau panorama sur Perrinboeuf,Perrinboeuf,205,3,378,1,True,1,1
+745,142,Duplex,Duplex charmant proche de Pasquier,Pasquier,146,5,79,0,True,1,2
+746,119,Pavillon,Pavillon moderne avec vue sur Poirier,Poirier,39,8,235,0,True,1,1
+747,127,Cabane,Cabane lumineux pourvu d'un beau panorama sur MathieuVille,MathieuVille,60,8,75,1,True,1,2
+748,170,Cabane,Cabane magnifique au cœur de Dupuis,Dupuis,79,2,323,0,True,2,3
+749,155,Chalet,Chalet moderne au cœur de Coste-sur-Gomez,Coste-sur-Gomez,104,5,311,1,False,2,3
+750,141,Pavillon,Pavillon romantique dans un quartier branché de Grégoirenec,Grégoirenec,321,2,65,2,True,5,1
+751,140,Pavillon,Pavillon traditionnelle dans un quartier branché de Sainte Charlesboeuf,Sainte Charlesboeuf,117,1,386,0,True,5,3
+752,92,Gite,Gite charmant près de Lenoirnec,Lenoirnec,331,3,240,2,True,2,2
+753,117,Maison,Maison typique à proximité de Sainte Antoinenec,Sainte Antoinenec,293,4,223,0,False,1,2
+754,79,Appartement,Appartement rustique pourvu d'un beau panorama sur Moreau,Moreau,283,6,375,1,True,1,2
+755,118,Gite,Gite spacieux avec vue sur Lenoir,Lenoir,175,8,322,2,False,4,1
+756,73,Villa,Villa traditionnelle à proximité de Parent-sur-Roussel,Parent-sur-Roussel,467,7,111,0,False,3,1
+757,106,Studio,Studio luxueux en plein coeur de Ledoux,Ledoux,83,7,239,2,True,1,1
+758,185,Maison,Maison charmant à proximité de Gilles-les-Bains,Gilles-les-Bains,332,2,394,0,True,3,1
+759,65,Chalet,Chalet lumineux dans un quartier branché de Duhamel,Duhamel,462,7,77,0,False,4,2
+760,199,Pavillon,Pavillon magnifique à CohenBourg,CohenBourg,434,7,197,1,False,4,3
+761,199,T2,T2 magnifique proche de Martins-les-Bains,Martins-les-Bains,262,2,77,1,False,4,1
+762,60,Cabane,Cabane cozy proche de Gimenez,Gimenez,80,1,49,1,True,2,2
+763,89,Yourte,Yourte rustique près de Moulin,Moulin,185,2,54,2,False,4,1
+764,181,T2,T2 familial en plein coeur de Brianddan,Brianddan,288,5,292,1,True,1,2
+765,128,Appartement,Appartement familial à proximité de Saint Sylvie,Saint Sylvie,191,7,241,1,True,1,1
+766,162,Villa,Villa calme à Legendre-la-Forêt,Legendre-la-Forêt,391,3,266,1,True,3,3
+767,110,Maison,Maison magnifique en plein coeur de Martin,Martin,86,8,352,2,False,4,3
+768,69,Duplex,Duplex cozy pourvu d'un beau panorama sur Sainte Richard,Sainte Richard,230,5,268,2,False,5,3
+769,141,Chalet,Chalet rural à Deschamps-sur-Bazin,Deschamps-sur-Bazin,61,1,317,0,True,3,2
+770,190,Pavillon,Pavillon magnifique au cœur de Marty-sur-Mer,Marty-sur-Mer,486,6,209,0,False,3,2
+771,87,Maison,Maison cozy près de Gros-sur-Carre,Gros-sur-Carre,368,4,141,0,False,5,1
+772,192,Pavillon,Pavillon paisible avec vue sur Saint Nicole,Saint Nicole,186,2,187,0,True,5,2
+773,44,Studio,Studio luxueux en plein coeur de ThibaultBourg,ThibaultBourg,472,7,305,2,False,3,1
+774,126,Pavillon,Pavillon lumineux en plein coeur de Blanc,Blanc,41,6,208,2,False,3,3
+775,171,Appartement,Appartement moderne en plein coeur de RocherBourg,RocherBourg,383,4,187,1,False,2,3
+776,102,T2,T2 spacieux près de Pages,Pages,133,8,340,0,True,3,2
+777,120,Studio,Studio lumineux à Guyotnec,Guyotnec,235,4,334,2,True,5,1
+778,88,Yourte,Yourte traditionnelle près de Bourdon,Bourdon,64,8,233,0,False,1,3
+779,157,T2,T2 magnifique pourvu d'un beau panorama sur Prévostboeuf,Prévostboeuf,183,7,354,2,False,2,2
+780,176,Maison,Maison lumineux à Chrétien,Chrétien,293,8,358,2,True,1,3
+781,203,Pavillon,Pavillon paisible pourvu d'un beau panorama sur Maillard-sur-Mer,Maillard-sur-Mer,125,8,124,2,False,3,3
+782,70,Villa,Villa calme à proximité de Leblanc,Leblanc,319,1,282,0,False,4,1
+783,83,Loft,Loft charmant proche de Jacques,Jacques,380,5,237,1,False,1,3
+784,39,Loft,Loft traditionnelle à proximité de Boulanger-sur-Durand,Boulanger-sur-Durand,451,5,345,0,False,5,1
+785,181,Maison,Maison moderne dans un quartier branché de Imbert,Imbert,106,4,29,0,False,4,2
+786,72,Villa,Villa spacieux à proximité de Sainte Aimé,Sainte Aimé,361,1,118,0,False,2,1
+787,102,T2,T2 luxueux à Saint Antoinette,Saint Antoinette,311,3,344,0,False,1,1
+788,36,Appartement,Appartement lumineux près de Grenierdan,Grenierdan,182,2,223,1,True,4,3
+789,110,Duplex,Duplex moderne dans un quartier branché de TanguyBourg,TanguyBourg,322,2,282,2,False,4,1
+790,85,Loft,Loft magnifique avec vue sur Saint Victoiredan,Saint Victoiredan,443,6,183,2,False,2,2
+791,190,Loft,Loft moderne proche de Sainte Sylvienec,Sainte Sylvienec,119,4,155,1,False,3,3
+792,138,Studio,Studio romantique en plein coeur de Pelletier-sur-Chevallier,Pelletier-sur-Chevallier,221,2,177,2,False,4,3
+793,107,Loft,Loft calme à Lecoq,Lecoq,431,3,200,1,False,3,1
+794,58,Cabane,Cabane paisible au cœur de Saint Célina,Saint Célina,408,1,368,2,True,3,3
+795,115,Maison,Maison luxueux à Olivier,Olivier,388,6,365,0,True,4,2
+796,193,Studio,Studio calme à proximité de Petit-sur-Mer,Petit-sur-Mer,499,5,169,0,True,3,1
+797,87,Duplex,Duplex luxueux en plein coeur de Sainte Maggie,Sainte Maggie,192,7,32,1,True,4,2
+798,93,Pavillon,Pavillon calme à proximité de Olivier,Olivier,460,6,382,1,True,2,3
+799,89,T2,T2 moderne pourvu d'un beau panorama sur Sainte Susan-sur-Mer,Sainte Susan-sur-Mer,210,7,323,2,False,4,3
+800,173,Studio,Studio luxueux au cœur de Teixeira,Teixeira,358,3,337,1,True,1,2
+801,131,Loft,Loft rural à Da Silva,Da Silva,324,2,71,0,True,5,3
+802,101,Cabane,Cabane paisible proche de Teixeira,Teixeira,334,7,178,1,False,2,2
+803,178,Duplex,Duplex magnifique près de Lacroix-sur-Robert,Lacroix-sur-Robert,174,4,58,1,False,2,2
+804,57,Maison,Maison cozy dans un quartier branché de Diaz,Diaz,41,4,60,1,True,3,3
+805,75,Duplex,Duplex spacieux au cœur de Masson-la-Forêt,Masson-la-Forêt,346,7,322,1,True,1,2
+806,96,Duplex,Duplex cozy avec vue sur Charrier-sur-Teixeira,Charrier-sur-Teixeira,397,7,247,2,False,1,1
+807,91,Pavillon,Pavillon typique dans un quartier branché de Courtois,Courtois,471,5,162,2,False,4,1
+808,72,Maison,Maison lumineux dans un quartier branché de Delmas,Delmas,140,5,387,2,True,4,1
+809,204,Maison,Maison cozy proche de Maillet-sur-Normand,Maillet-sur-Normand,178,5,135,2,False,2,2
+810,107,Yourte,Yourte moderne en plein coeur de Moreno-sur-Roger,Moreno-sur-Roger,35,8,83,1,False,2,3
+811,89,Maison,Maison charmant à proximité de Saint NoémiBourg,Saint NoémiBourg,335,5,52,0,True,1,2
+812,198,Loft,Loft calme en plein coeur de Poirier,Poirier,211,1,17,1,False,3,2
+813,118,Cabane,Cabane rustique près de Dumas-sur-Barbe,Dumas-sur-Barbe,486,1,312,0,False,2,3
+814,204,Gite,Gite calme près de Olivier,Olivier,269,3,60,1,False,2,2
+815,144,Appartement,Appartement cozy près de Sainte Maggie,Sainte Maggie,95,8,158,2,False,4,2
+816,129,T2,T2 romantique à De SousaVille,De SousaVille,190,7,99,1,False,2,3
+817,220,Cabane,Cabane cozy en plein coeur de ClercVille,ClercVille,126,3,42,0,True,1,2
+818,67,T2,T2 charmant proche de Lesage,Lesage,269,7,74,1,True,4,2
+819,103,Pavillon,Pavillon familial pourvu d'un beau panorama sur ParisBourg,ParisBourg,264,8,72,2,True,1,2
+820,92,Appartement,Appartement paisible dans un quartier branché de Turpindan,Turpindan,175,3,101,2,False,5,3
+821,77,Yourte,Yourte lumineux dans un quartier branché de Blondel,Blondel,32,3,228,0,True,4,3
+822,129,Appartement,Appartement cozy près de Saint Benoît,Saint Benoît,175,2,216,1,True,3,1
+823,112,Studio,Studio familial avec vue sur De Oliveira,De Oliveira,455,8,247,2,False,5,3
+824,62,Studio,Studio cozy près de Ponsboeuf,Ponsboeuf,365,8,181,2,True,2,1
+825,121,Cabane,Cabane rural à Sainte Léon,Sainte Léon,438,1,395,0,False,1,2
+826,121,T2,T2 typique proche de Faure,Faure,424,7,60,0,True,2,2
+827,77,Maison,Maison luxueux à Laurent-sur-Gallet,Laurent-sur-Gallet,415,3,76,1,False,4,3
+828,96,T2,T2 rural proche de Blot,Blot,370,2,203,2,True,4,2
+829,196,Maison,Maison traditionnelle en plein coeur de Sanchez-sur-Mer,Sanchez-sur-Mer,318,7,61,1,False,5,1
+830,69,Maison,Maison moderne à proximité de Gaillard,Gaillard,50,6,252,2,True,2,2
+831,45,Villa,Villa moderne pourvu d'un beau panorama sur Langlois,Langlois,178,8,238,0,False,3,1
+832,76,Duplex,Duplex paisible à Saint Antoinedan,Saint Antoinedan,157,7,166,2,True,5,1
+833,39,Studio,Studio moderne pourvu d'un beau panorama sur Laurentboeuf,Laurentboeuf,291,7,226,0,False,5,2
+834,126,Chalet,Chalet lumineux à Hoarau,Hoarau,71,1,73,2,False,2,1
+835,114,Maison,Maison moderne au cœur de Sainte Olivierboeuf,Sainte Olivierboeuf,243,5,175,2,False,4,3
+836,77,T2,T2 calme près de Sainte Dorothée,Sainte Dorothée,476,3,123,0,True,5,2
+837,158,Cabane,Cabane spacieux avec vue sur Legrand,Legrand,303,1,17,1,True,1,1
+838,73,Cabane,Cabane familial en plein coeur de Legendre-sur-Navarro,Legendre-sur-Navarro,384,7,351,2,False,3,3
+839,135,Yourte,Yourte charmant près de Sainte InèsBourg,Sainte InèsBourg,374,7,169,0,True,2,1
+840,39,Loft,Loft paisible avec vue sur Saint Arthurnec,Saint Arthurnec,38,4,28,0,False,2,3
+841,150,Loft,Loft paisible à proximité de Lemonnier,Lemonnier,350,4,59,1,False,2,2
+842,91,Maison,Maison moderne au cœur de Saint Charlesdan,Saint Charlesdan,115,3,393,2,False,4,2
+843,85,Studio,Studio lumineux en plein coeur de Sainte Juliette,Sainte Juliette,154,4,165,2,False,1,2
+844,87,Studio,Studio luxueux avec vue sur FrançoisBourg,FrançoisBourg,463,7,227,1,False,1,2
+845,80,Maison,Maison romantique en plein coeur de Saint Théodore,Saint Théodore,332,8,133,2,True,5,1
+846,199,Maison,Maison romantique près de MaréchalBourg,MaréchalBourg,62,5,346,1,False,1,2
+847,96,Yourte,Yourte familial près de Chrétien-sur-Bouchet,Chrétien-sur-Bouchet,387,7,25,0,False,2,2
+848,164,Chalet,Chalet typique en plein coeur de Joseph,Joseph,289,4,315,2,False,5,3
+849,82,Cabane,Cabane rustique en plein coeur de Dubois-sur-De Sousa,Dubois-sur-De Sousa,482,5,385,2,False,4,3
+850,102,Cabane,Cabane magnifique près de Barthelemynec,Barthelemynec,271,3,333,0,False,1,3
+851,122,Gite,Gite rustique proche de Legendre-sur-Roussel,Legendre-sur-Roussel,132,3,325,1,True,4,2
+852,212,T2,T2 typique dans un quartier branché de Gilles,Gilles,315,1,24,1,False,3,3
+853,135,Duplex,Duplex paisible proche de Sainte Diane,Sainte Diane,470,1,47,1,False,1,3
+854,181,Loft,Loft romantique avec vue sur Coste,Coste,144,8,147,1,False,1,3
+855,84,T2,T2 paisible proche de Nicolas,Nicolas,383,2,376,0,False,4,1
+856,57,Appartement,Appartement paisible avec vue sur Saint JeannineBourg,Saint JeannineBourg,317,1,274,0,True,1,1
+857,166,Chalet,Chalet charmant proche de Leclercq-sur-Baudry,Leclercq-sur-Baudry,179,8,274,1,True,2,3
+858,96,Chalet,Chalet paisible près de Diaz,Diaz,100,2,118,1,False,1,1
+859,67,Gite,Gite traditionnelle près de Boucherboeuf,Boucherboeuf,288,3,58,1,False,4,2
+860,144,Cabane,Cabane rustique dans un quartier branché de Leducdan,Leducdan,415,7,131,0,False,4,2
+861,190,Gite,Gite magnifique pourvu d'un beau panorama sur Berger,Berger,379,6,30,1,True,1,3
+862,49,Villa,Villa moderne avec vue sur Bertrand,Bertrand,203,6,220,0,False,1,2
+863,77,Studio,Studio calme proche de Saint Thierry,Saint Thierry,324,1,338,2,False,4,2
+864,37,Cabane,Cabane paisible pourvu d'un beau panorama sur Nguyen-sur-Blanchet,Nguyen-sur-Blanchet,185,6,191,0,False,5,3
+865,39,Duplex,Duplex familial à proximité de Langlois,Langlois,359,4,293,2,False,3,3
+866,48,Maison,Maison calme dans un quartier branché de Allard-sur-Diallo,Allard-sur-Diallo,184,2,33,2,False,4,3
+867,115,Pavillon,Pavillon romantique proche de Caron,Caron,306,5,124,0,False,5,2
+868,97,Cabane,Cabane cozy proche de Ruizboeuf,Ruizboeuf,44,5,138,1,False,5,1
+869,169,Pavillon,Pavillon paisible au cœur de Tessier,Tessier,220,5,336,2,False,1,1
+870,187,Cabane,Cabane familial avec vue sur Saint Bertrand,Saint Bertrand,182,1,247,1,True,5,3
+871,197,Pavillon,Pavillon paisible pourvu d'un beau panorama sur Guillou,Guillou,334,4,194,1,False,5,3
+872,214,Duplex,Duplex romantique à proximité de Vincentnec,Vincentnec,407,4,68,1,True,3,2
+873,177,Appartement,Appartement charmant proche de Pierre,Pierre,247,7,56,0,True,4,1
+874,167,Gite,Gite familial dans un quartier branché de Riou,Riou,69,6,361,2,False,5,3
+875,123,Villa,Villa paisible à proximité de Muller,Muller,165,8,340,1,False,4,3
+876,195,Maison,Maison rustique proche de Roche,Roche,288,3,263,2,False,2,3
+877,150,Villa,Villa moderne pourvu d'un beau panorama sur Lemonnierdan,Lemonnierdan,385,4,248,1,True,2,3
+878,125,Chalet,Chalet lumineux avec vue sur Jacquot-sur-Rémy,Jacquot-sur-Rémy,466,7,71,0,False,5,2
+879,195,Studio,Studio rustique pourvu d'un beau panorama sur Moreno-sur-Daniel,Moreno-sur-Daniel,90,6,171,1,False,3,2
+880,107,Studio,Studio rustique proche de Ribeiro-sur-Humbert,Ribeiro-sur-Humbert,431,7,39,1,False,2,1
+881,219,Pavillon,Pavillon cozy en plein coeur de Goncalves,Goncalves,92,6,49,0,False,4,3
+882,194,T2,T2 calme en plein coeur de Sainte SophieVille,Sainte SophieVille,202,7,258,2,True,2,3
+883,60,Cabane,Cabane magnifique en plein coeur de VasseurVille,VasseurVille,260,8,91,2,False,1,3
+884,70,Cabane,Cabane spacieux à proximité de Jacquot,Jacquot,149,7,188,2,True,4,3
+885,205,T2,T2 paisible avec vue sur Turpin,Turpin,114,1,307,2,False,5,3
+886,210,Appartement,Appartement moderne pourvu d'un beau panorama sur Benoit-sur-Dupuis,Benoit-sur-Dupuis,128,1,306,2,True,4,3
+887,156,Studio,Studio luxueux avec vue sur Guyonboeuf,Guyonboeuf,302,3,24,1,True,2,3
+888,217,Yourte,Yourte moderne en plein coeur de Leclercnec,Leclercnec,443,6,220,2,True,4,1
+889,149,Chalet,Chalet rustique à proximité de Robert,Robert,242,1,285,1,False,3,1
+890,117,Appartement,Appartement romantique avec vue sur Dubois,Dubois,116,5,88,0,False,1,1
+891,122,T2,T2 luxueux à proximité de Sainte AntoineBourg,Sainte AntoineBourg,116,1,329,1,True,1,3
+892,209,Studio,Studio spacieux à Charpentier,Charpentier,80,6,87,1,False,3,2
+893,203,Appartement,Appartement typique au cœur de Leclercqboeuf,Leclercqboeuf,152,4,267,2,False,1,2
+894,160,Studio,Studio familial près de Saint Louis,Saint Louis,313,7,48,1,True,4,3
+895,175,Loft,Loft traditionnelle au cœur de Jacquet,Jacquet,313,2,141,2,True,3,3
+896,160,Maison,Maison moderne en plein coeur de Vasseur,Vasseur,463,4,87,1,True,2,3
+897,213,Maison,Maison familial pourvu d'un beau panorama sur Fouquet,Fouquet,51,1,252,2,False,2,1
+898,186,Studio,Studio traditionnelle en plein coeur de Maillot,Maillot,336,5,363,1,False,2,3
+899,74,Villa,Villa cozy à Moulin-les-Bains,Moulin-les-Bains,112,2,168,0,False,1,1
+900,208,Pavillon,Pavillon traditionnelle pourvu d'un beau panorama sur Simon,Simon,479,7,122,2,False,3,3
+901,146,T2,T2 traditionnelle en plein coeur de Charles,Charles,155,6,189,0,False,5,2
+902,57,Studio,Studio luxueux proche de Saint Véronique-les-Bains,Saint Véronique-les-Bains,31,8,17,0,True,4,3
+903,66,Pavillon,Pavillon magnifique en plein coeur de BègueBourg,BègueBourg,231,2,347,2,True,5,1
+904,172,Cabane,Cabane luxueux en plein coeur de Lacroix,Lacroix,93,6,207,2,False,4,1
+905,46,Pavillon,Pavillon moderne au cœur de Pineau,Pineau,266,6,113,1,True,2,3
+906,121,Studio,Studio luxueux à Lemaître,Lemaître,393,6,113,0,False,2,1
+907,122,Gite,Gite cozy près de Peltier,Peltier,173,8,375,2,True,1,1
+908,180,Cabane,Cabane moderne à proximité de Laine,Laine,475,5,306,2,False,2,3
+909,82,Loft,Loft moderne proche de Gay-sur-Mendès,Gay-sur-Mendès,331,3,396,0,True,3,3
+910,63,Loft,Loft charmant pourvu d'un beau panorama sur Saint Guy-les-Bains,Saint Guy-les-Bains,430,5,113,2,True,5,3
+911,108,T2,T2 calme pourvu d'un beau panorama sur Olivier,Olivier,262,1,233,2,True,3,2
+912,66,Maison,Maison moderne à Hoareauboeuf,Hoareauboeuf,378,8,268,1,True,2,1
+913,99,T2,T2 romantique à proximité de Joseph,Joseph,259,6,17,1,True,3,1
+914,51,Yourte,Yourte charmant au cœur de Bousquet-sur-Mer,Bousquet-sur-Mer,145,7,53,0,True,2,2
+915,59,T2,T2 luxueux avec vue sur Saint Dominique,Saint Dominique,350,2,29,1,False,1,3
+916,70,Cabane,Cabane paisible près de Cousin-les-Bains,Cousin-les-Bains,158,4,70,1,True,3,1
+917,200,Chalet,Chalet magnifique pourvu d'un beau panorama sur Hoarau,Hoarau,151,2,322,2,False,1,3
+918,112,Gite,Gite moderne avec vue sur Sainte Gilbert,Sainte Gilbert,61,1,208,1,True,2,1
+919,204,Gite,Gite traditionnelle au cœur de Marydan,Marydan,342,7,48,0,True,5,1
+920,57,T2,T2 spacieux à proximité de Petitjean,Petitjean,79,7,134,2,True,4,2
+921,114,Gite,Gite calme à proximité de Sainte SophieBourg,Sainte SophieBourg,347,2,188,2,True,4,3
+922,202,Chalet,Chalet moderne dans un quartier branché de Grégoire,Grégoire,82,1,319,2,True,5,1
+923,161,Yourte,Yourte luxueux proche de Hamelboeuf,Hamelboeuf,290,5,196,1,False,5,2
+924,47,Duplex,Duplex rustique dans un quartier branché de Pauldan,Pauldan,438,1,45,0,False,5,2
+925,103,Villa,Villa traditionnelle près de Lebrun,Lebrun,328,3,90,1,False,5,2
+926,145,T2,T2 cozy près de Laine,Laine,295,3,44,0,True,4,2
+927,183,Loft,Loft luxueux dans un quartier branché de Augerdan,Augerdan,495,4,50,1,True,4,3
+928,38,Pavillon,Pavillon lumineux en plein coeur de Royernec,Royernec,384,6,311,2,False,5,2
+929,195,Maison,Maison rustique près de Delahaye-sur-Da Silva,Delahaye-sur-Da Silva,83,8,36,1,True,1,3
+930,68,Loft,Loft familial dans un quartier branché de Vasseur,Vasseur,349,4,137,1,False,4,1
+931,190,Maison,Maison paisible proche de Sauvage,Sauvage,33,6,20,0,False,1,3
+932,108,Appartement,Appartement traditionnelle proche de Delaunay,Delaunay,255,4,338,2,False,1,1
+933,172,Loft,Loft traditionnelle dans un quartier branché de Schneider,Schneider,119,4,149,2,True,3,3
+934,100,Loft,Loft typique proche de Hoareau-les-Bains,Hoareau-les-Bains,41,3,149,0,True,2,2
+935,51,Cabane,Cabane rural avec vue sur Adam,Adam,137,5,248,0,False,3,3
+936,100,Duplex,Duplex magnifique pourvu d'un beau panorama sur Clément-les-Bains,Clément-les-Bains,349,7,379,0,True,2,1
+937,186,Loft,Loft romantique dans un quartier branché de Sainte Capucineboeuf,Sainte Capucineboeuf,223,6,177,2,False,2,1
+938,187,Yourte,Yourte paisible dans un quartier branché de Guillon,Guillon,304,5,91,1,True,1,3
+939,49,T2,T2 paisible proche de Sainte Denise,Sainte Denise,290,8,122,2,True,4,3
+940,69,Yourte,Yourte rustique avec vue sur Marques-sur-Launay,Marques-sur-Launay,290,7,399,2,False,4,3
+941,168,Gite,Gite rural proche de Bigotnec,Bigotnec,394,6,284,2,False,4,2
+942,144,T2,T2 luxueux à proximité de Tessierdan,Tessierdan,434,1,121,0,True,4,1
+943,161,Maison,Maison traditionnelle dans un quartier branché de Maillard,Maillard,247,7,307,0,False,3,3
+944,166,Appartement,Appartement magnifique proche de Laurent-les-Bains,Laurent-les-Bains,73,5,242,2,False,2,3
+945,93,Studio,Studio romantique en plein coeur de Rey-la-Forêt,Rey-la-Forêt,348,6,233,1,False,4,2
+946,182,Chalet,Chalet rural en plein coeur de Sainte Émile-la-Forêt,Sainte Émile-la-Forêt,169,7,27,0,False,2,2
+947,114,Cabane,Cabane rural avec vue sur BlanchetBourg,BlanchetBourg,491,2,165,2,True,3,1
+948,136,Appartement,Appartement moderne avec vue sur Dumas,Dumas,214,1,294,0,False,2,3
+949,98,Chalet,Chalet traditionnelle à Saint Davidboeuf,Saint Davidboeuf,411,5,112,2,True,5,2
+950,212,Studio,Studio traditionnelle à Saint Xavier,Saint Xavier,451,6,221,1,True,4,3
+951,42,Villa,Villa paisible proche de Parent,Parent,233,4,131,2,True,4,1
+952,57,Villa,Villa magnifique pourvu d'un beau panorama sur Deschamps,Deschamps,269,8,189,0,False,2,2
+953,103,Pavillon,Pavillon typique à proximité de Vallet,Vallet,254,8,300,0,False,2,3
+954,214,Duplex,Duplex charmant à Aubert,Aubert,34,8,352,1,False,2,2
+955,104,Maison,Maison magnifique à proximité de Dos Santos-sur-Chrétien,Dos Santos-sur-Chrétien,428,5,181,2,True,5,1
+956,195,Duplex,Duplex rural proche de BertinVille,BertinVille,320,7,210,0,False,1,3
+957,209,Maison,Maison familial dans un quartier branché de Carre,Carre,85,6,306,1,False,1,1
+958,123,Appartement,Appartement rustique pourvu d'un beau panorama sur Antoine,Antoine,46,8,28,0,True,1,2
+959,171,T2,T2 typique dans un quartier branché de DelormeVille,DelormeVille,179,2,247,0,False,5,1
+960,193,Duplex,Duplex paisible près de Guibert-les-Bains,Guibert-les-Bains,495,7,215,0,True,2,3
+961,90,Maison,Maison charmant en plein coeur de Dumas-sur-Mer,Dumas-sur-Mer,65,7,120,0,True,3,2
+962,220,Pavillon,Pavillon rustique en plein coeur de Reynaud,Reynaud,339,5,315,0,False,3,1
+963,42,Studio,Studio familial proche de Blondel,Blondel,62,7,324,0,False,5,2
+964,205,Gite,Gite lumineux en plein coeur de Courtois-sur-Boulay,Courtois-sur-Boulay,50,2,162,2,False,3,3
+965,44,Pavillon,Pavillon spacieux à Macedan,Macedan,343,3,227,0,True,5,3
+966,206,Maison,Maison spacieux en plein coeur de Clément,Clément,496,3,372,2,True,4,3
+967,153,Studio,Studio calme dans un quartier branché de Roche,Roche,475,3,155,2,False,1,3
+968,183,Pavillon,Pavillon calme dans un quartier branché de Piresnec,Piresnec,282,7,298,0,False,1,1
+969,208,Villa,Villa spacieux près de Navarro,Navarro,260,3,144,0,True,4,1
+970,129,Appartement,Appartement spacieux en plein coeur de PascalVille,PascalVille,205,7,114,1,True,1,2
+971,172,Appartement,Appartement rural proche de Joly,Joly,373,8,263,1,True,1,3
+972,57,Cabane,Cabane charmant dans un quartier branché de Rodriguez-sur-Schneider,Rodriguez-sur-Schneider,254,3,256,1,True,2,1
+973,219,Yourte,Yourte rustique avec vue sur Sainte Suzanne,Sainte Suzanne,180,2,288,2,False,2,1
+974,79,Cabane,Cabane luxueux au cœur de Maillot,Maillot,169,3,240,1,True,2,3
+975,111,Studio,Studio typique pourvu d'un beau panorama sur Humbert,Humbert,256,1,340,2,True,4,3
+976,111,T2,T2 cozy en plein coeur de Torresnec,Torresnec,336,1,39,1,True,2,2
+977,153,Loft,Loft moderne dans un quartier branché de Ribeiroboeuf,Ribeiroboeuf,38,7,29,0,False,2,3
+978,102,Cabane,Cabane typique avec vue sur Simon-sur-Duhamel,Simon-sur-Duhamel,481,2,355,0,True,1,2
+979,168,Villa,Villa paisible avec vue sur Saint Honoré,Saint Honoré,197,6,302,2,True,5,1
+980,56,Villa,Villa spacieux à proximité de Duhamel,Duhamel,91,4,124,0,False,3,1
+981,212,Studio,Studio luxueux à proximité de Raynaud-sur-Baudry,Raynaud-sur-Baudry,191,1,214,0,False,2,1
+982,152,Cabane,Cabane luxueux à Weber-sur-Mer,Weber-sur-Mer,349,6,37,0,True,4,2
+983,100,Yourte,Yourte moderne en plein coeur de Andrenec,Andrenec,394,3,143,0,False,4,3
+984,144,Pavillon,Pavillon rural proche de Ollivier,Ollivier,119,6,356,1,True,3,1
+985,82,Yourte,Yourte spacieux en plein coeur de Sainte Hélènedan,Sainte Hélènedan,291,4,272,2,True,2,1
+986,130,Yourte,Yourte traditionnelle avec vue sur Morin,Morin,151,7,139,2,True,1,1
+987,186,Chalet,Chalet traditionnelle en plein coeur de Duval,Duval,133,3,207,0,True,2,3
+988,39,Yourte,Yourte charmant en plein coeur de SchmittVille,SchmittVille,479,6,83,1,False,1,3
+989,87,Maison,Maison magnifique à Camus-sur-Michel,Camus-sur-Michel,42,4,390,1,False,2,1
+990,162,Villa,Villa calme au cœur de Philippe,Philippe,499,4,366,2,True,5,2
+991,39,Villa,Villa rustique près de Sainte Roland-sur-Mer,Sainte Roland-sur-Mer,256,1,48,1,True,2,1
+992,137,Cabane,Cabane typique proche de Klein,Klein,94,2,103,2,True,2,3
+993,196,Appartement,Appartement charmant à proximité de Mullerdan,Mullerdan,269,5,99,2,True,2,2
+994,78,Duplex,Duplex traditionnelle dans un quartier branché de Sainte Diane,Sainte Diane,176,8,340,0,False,4,1
+995,72,Chalet,Chalet spacieux à proximité de Saint Victor,Saint Victor,115,8,240,1,False,2,2
+996,94,Studio,Studio spacieux à proximité de Michaud-les-Bains,Michaud-les-Bains,467,2,168,2,True,5,3
+997,85,Duplex,Duplex spacieux à Saint Élisenec,Saint Élisenec,267,5,247,1,False,5,3
+998,161,Gite,Gite rural avec vue sur BernierBourg,BernierBourg,99,8,115,0,True,1,1
+999,202,Villa,Villa familial près de Leclerc-les-Bains,Leclerc-les-Bains,237,7,217,2,False,4,2
+1000,161,T2,T2 spacieux avec vue sur Ruiz,Ruiz,483,1,78,1,True,2,2
