@@ -11,8 +11,8 @@ bookings_csv = pd.read_csv('datas/bookings.csv')
 reviews_csv = pd.read_csv('datas/reviews.csv')
 
 # Combien de bookings/reviews tu veux générer ?
-NUM_BOOKINGS = 500
-NUM_REVIEWS = 400
+NUM_BOOKINGS = 10000
+NUM_REVIEWS = 8000
 
 # Déterminer le max des IDs actuels
 max_booking_id = bookings_csv['booking_id'].max() if not bookings_csv.empty else 0
@@ -101,11 +101,13 @@ bookings_df = pd.DataFrame(bookings, columns=[
     'booking_id', 'user_id', 'property_id', 'start_date', 'end_date', 'total_price', 'booking_date'
 ])
 
+# Tirer aléatoirement des bookings uniques pour lesquels on va générer une review
+bookings_with_reviews = random.sample(bookings, NUM_REVIEWS)
+
 # Génération des reviews
 reviews = []
-for i in range(NUM_REVIEWS):
+for i,booking in enumerate(bookings_with_reviews):
     review_id = max_review_id + i + 1
-    booking = random.choice(bookings)
     booking_id = booking[0]
     rating = random.randint(1, 5)
     comment = generate_review_text(rating)
