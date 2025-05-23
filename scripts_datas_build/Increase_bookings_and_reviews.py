@@ -11,8 +11,8 @@ bookings_csv = pd.read_csv('datas/bookings.csv')
 reviews_csv = pd.read_csv('datas/reviews.csv')
 
 # Combien de bookings/reviews tu veux générer ?
-NUM_BOOKINGS = 10000
-NUM_REVIEWS = 8000
+NUM_BOOKINGS = 9900
+NUM_REVIEWS = 8900
 
 # Déterminer le max des IDs actuels
 max_booking_id = bookings_csv['booking_id'].max() if not bookings_csv.empty else 0
