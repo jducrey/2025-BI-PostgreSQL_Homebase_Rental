@@ -2,9 +2,14 @@
 __pycache__/
 *.py[cod]
 *.ipynb_checkpoints/
+*.pyc
 
 # VS Code
 .vscode/
+.idea/
+
+# Secrets (à ne pas commit !)
+config/psql_var.py
 
 # Fichiers système
 .DS_Store
