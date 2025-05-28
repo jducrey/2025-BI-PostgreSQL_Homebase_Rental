@@ -1,0 +1,1 @@
+# Exemple : vérifier les chevauchements de réservations
