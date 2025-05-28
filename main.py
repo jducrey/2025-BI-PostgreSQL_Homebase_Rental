@@ -24,10 +24,13 @@ if __name__ == "__main__":
     insert_data()
 
     print("\n🧪 Tests de la qualité des données...")
-    pytest.main(["scripts_tests_data_quality/test_data_integrity.py",
+    exit_code=pytest.main(["scripts_tests_data_quality/test_data_integrity.py",
                  "scripts_tests_data_quality/test_data_consistency.py",
                  "scripts_tests_data_quality/test_temporal_logic.py",
                  "scripts_tests_data_quality/test_relations.py",
                  "scripts_tests_data_quality/test_edge_cases.py"])
+    if exit_code != 0:
+        print("❌ Tests échoués, checkez les logs.")
+        exit(exit_code)
     
     print("\n✅ Tout est prêt, chef !")
