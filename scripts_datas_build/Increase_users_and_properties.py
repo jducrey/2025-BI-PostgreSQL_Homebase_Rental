@@ -12,8 +12,8 @@ def increase_users_and_properties():
     Faker.seed(42)
     random.seed(42)
 
-    NUM_USERS = 265
-    NUM_PROPERTIES = 950
+    NUM_USERS = 300
+    NUM_PROPERTIES = 1000
     PERCENT_FOREIGN = 0.3
 
     title_templates = [
@@ -113,6 +113,10 @@ def increase_users_and_properties():
             owner = user_pool.sample(1).iloc[0]
             prop_type = random.choice(types)
             city = faker_fr.city()
+            num_bedrooms = random.randint(1, 6)  # ou autre logique de ton code
+            surface_min = num_bedrooms * 10
+            surface_max = num_bedrooms * 25
+            surface_m2 = random.randint(surface_min, surface_max)
             props.append({
                 'property_id': start_id + i + 1,
                 'owner_id': owner['user_id'],
@@ -120,11 +124,11 @@ def increase_users_and_properties():
                 'title': random.choice(title_templates).format(prop_type, random.choice(adjectives), city),
                 'location': city,
                 'price_per_night': random.randint(30, 500),
-                'max_occupants': random.randint(1, 8),
-                'surface_m2': random.randint(15, 400),
+                'max_occupants': random.randint(num_bedrooms, 8),
+                'surface_m2': surface_m2,
                 'parking_spaces': random.randint(0, 2),
                 'wifi_access': random.choice([True, False]),
-                'num_bedrooms': random.randint(1, 5),
+                'num_bedrooms': num_bedrooms,
                 'num_bathrooms': random.randint(1, 3),
             })
         return pd.DataFrame(props)
