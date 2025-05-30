@@ -14,8 +14,8 @@ def increase_bookings_and_reviews():
     reviews_csv = pd.read_csv('datas/reviews.csv')
 
     # Combien de bookings/reviews tu veux générer ?
-    NUM_BOOKINGS = 9900
-    NUM_REVIEWS = 8900
+    NUM_BOOKINGS = 10000
+    NUM_REVIEWS = 9000
 
     # Déterminer le max des IDs actuels
     max_booking_id = bookings_csv['booking_id'].max() if not bookings_csv.empty else 0
@@ -26,17 +26,15 @@ def increase_bookings_and_reviews():
         """Retourne une date aléatoire entre deux dates"""
         return start + timedelta(days=random.randint(0, (end - start).days))
 
-    def generate_booking_dates():
-        """Génère une paire (start_date, end_date) entre 2023 et 2025"""
-        start_date = random_date(datetime(2023, 1, 1), datetime(2025, 12, 1))
-        nights = random.randint(1, 14)
+    def generate_booking_dates(booking_date):
+        """
+        Génère une start_date entre 1 et 182 jours après la booking_date,
+        puis une end_date entre 1 et 21 nuits après la start_date.
+        """
+        start_date = booking_date + timedelta(days=random.randint(1, 182))
+        nights = random.randint(1, 21)
         end_date = start_date + timedelta(days=nights)
         return start_date, end_date, nights
-
-    def generate_booking_date_before(start_date):
-        """Génère une date de réservation avant le start_date"""
-        delta_days = random.randint(1, 90)
-        return start_date - timedelta(days=delta_days)
 
     def generate_review_date(end_date):
         """Génère une date de review entre 1 jour et 1 mois après le end_date"""
@@ -90,6 +88,11 @@ def increase_bookings_and_reviews():
     for i in range(NUM_BOOKINGS):
         booking_id = max_booking_id + i + 1
         user_id = random.choice(users['user_id'].values)
+        user_row = users[users['user_id'] == user_id].iloc[0]
+        signup_date = datetime.strptime(user_row['signup_date'], "%Y-%m-%d")
+        # Générer booking_date entre signup_date +1 jour et signup_date + 90 jours
+        booking_date = signup_date + timedelta(days=random.randint(1, 90))
+
         # Filtrer les logements qui ne sont pas à ce user
         available_properties = properties[properties['owner_id'] != user_id]
         # Si aucun logement dispo (très rare), on skip
@@ -99,9 +102,9 @@ def increase_bookings_and_reviews():
         property_id = property_row['property_id']
         price_per_night = property_row['price_per_night']
         
-        start_date, end_date, nights = generate_booking_dates()
+        start_date, end_date, nights = generate_booking_dates(booking_date)
+
         total_price = round(price_per_night * nights, 2)
-        booking_date = generate_booking_date_before(start_date)
         
         bookings.append([booking_id, user_id, property_id, start_date.date(), end_date.date(), total_price, booking_date.date()])
 
