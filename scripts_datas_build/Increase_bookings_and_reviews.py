@@ -82,6 +82,16 @@ def increase_bookings_and_reviews():
                 "Problèmes d'hygiène, je ne recommande pas.",
                 "Expérience frustrante, à éviter."
             ])
+        
+    # Dictionnaire pour suivre les plages de réservations déjà prises par propriété
+    existing_bookings = {}
+
+    # Initialiser avec les bookings déjà présents (si existants)
+    for _, row in bookings_csv.iterrows():
+        pid = row['property_id']
+        start = pd.to_datetime(row['start_date'])
+        end = pd.to_datetime(row['end_date'])
+        existing_bookings.setdefault(pid, []).append((start, end))
 
     # Génération des bookings
     bookings = []
@@ -102,10 +112,32 @@ def increase_bookings_and_reviews():
         property_id = property_row['property_id']
         price_per_night = property_row['price_per_night']
         
-        start_date, end_date, nights = generate_booking_dates(booking_date)
-
-        total_price = round(price_per_night * nights, 2)
+        # Empêcher le chevauchement de réservations
+        attempts = 0
+        max_attempts = 10
+        while attempts < max_attempts:
+            start_date, end_date, nights = generate_booking_dates(booking_date)
+            # Récupérer les bookings existants pour cette propriété
+            bookings_for_property = existing_bookings.get(property_id, [])
         
+            # Vérifier s'il y a un chevauchement
+            overlap = any(
+                not (end_date <= existing_start or start_date >= existing_end)
+                for existing_start, existing_end in bookings_for_property
+            )
+
+            if not overlap:
+                # Pas de chevauchement, on peut valider
+                break
+            attempts += 1
+        else:
+            # Si on n'a pas réussi à éviter le chevauchement après plusieurs essais, on skip
+            continue
+
+        # Enregistrer les dates comme existantes pour la propriété
+        existing_bookings.setdefault(property_id, []).append((start_date, end_date))
+        
+        total_price = round(price_per_night * nights, 2)
         bookings.append([booking_id, user_id, property_id, start_date.date(), end_date.date(), total_price, booking_date.date()])
 
     bookings_df = pd.DataFrame(bookings, columns=[
