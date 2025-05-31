@@ -29,6 +29,18 @@ def test_users_are_adults():
     conn.close()
     assert count == 0, f"{count} utilisateur(s) ont moins de 18 ans !"
 
+# Tous les utilisateurs avaient au moins 18 ans, à la date de leur inscription 
+def test_signup_age_above_18():
+    conn = connect_cozy_bnb_db()
+    cur = conn.cursor()
+    cur.execute("""
+        SELECT COUNT(*) FROM users
+        WHERE signup_date < birth_date + INTERVAL '18 years';
+    """)
+    count = cur.fetchone()[0]
+    cur.close()
+    conn.close()
+    assert count == 0, f"{count} utilisateurs inscrits avant 18 ans détectés !"
 
 # Vérifie que chaque chambre peut faire au moins 9m^2
 def test_surface_vs_bedrooms():
@@ -56,3 +68,18 @@ def test_max_occupants_vs_bedrooms():
     cur.close()
     conn.close()
     assert count == 0, f"{count} propriétés n'ont pas assez d'occupants pour le nombre de chambres !"
+
+
+# Vérifie que le total_price d'une booking est égale au prix par nuit, multiplié par le nombre de nuits
+def test_total_price_consistency():
+    conn = connect_cozy_bnb_db()
+    cur = conn.cursor()
+    cur.execute("""
+    SELECT COUNT(*) FROM bookings b
+    JOIN properties p ON b.property_id = p.property_id
+    WHERE ABS(b.total_price - ROUND(p.price_per_night * (b.end_date - b.start_date), 2)) > 0.01;
+    """)
+    count = cur.fetchone()[0]
+    cur.close()
+    conn.close()
+    assert count == 0, f"{count} incohérences de total_price détectées pour les bookings !"

@@ -70,3 +70,20 @@ def test_price_per_night_positive():
     cur.close()
     conn.close()
     assert count == 0, f"{count} logements ont un prix invalide (≤ 0 €) !"
+
+
+# Aucune valeur manquantes dans les colonnes critiques
+def test_null_values_critical_columns():
+    conn = connect_cozy_bnb_db()
+    cur = conn.cursor()
+    cur.execute("""
+    SELECT COUNT(*) FROM users WHERE user_id IS NULL OR name IS NULL OR signup_date IS NULL
+    UNION
+    SELECT COUNT(*) FROM properties WHERE property_id IS NULL OR owner_id IS NULL OR price_per_night IS NULL
+    UNION
+    SELECT COUNT(*) FROM bookings WHERE booking_id IS NULL OR user_id IS NULL OR property_id IS NULL OR start_date IS NULL OR end_date IS NULL OR booking_date IS NULL;
+    """)
+    count = cur.fetchone()[0]
+    cur.close()
+    conn.close()
+    assert count == 0, f"{count} valeurs NULL détectées dans des colonnes critiques"
