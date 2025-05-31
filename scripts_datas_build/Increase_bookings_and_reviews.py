@@ -2,6 +2,7 @@
 import pandas as pd
 import random
 from datetime import datetime, timedelta
+import os
 
 def increase_bookings_and_reviews():
 
@@ -9,17 +10,27 @@ def increase_bookings_and_reviews():
     users = pd.read_csv('datas/users.csv')
     properties = pd.read_csv('datas/properties.csv')  # doit contenir 'property_id' et 'price_per_night'
 
-    # Ajout dans les fichiers existants
-    bookings_csv = pd.read_csv('datas/bookings.csv')
-    reviews_csv = pd.read_csv('datas/reviews.csv')
+    # Load existing data
+    bookings_file = 'datas/bookings.csv'
+    reviews_file = 'datas/reviews.csv'
+
+    if os.path.exists(bookings_file):
+        bookings_csv = pd.read_csv(bookings_file)
+        max_booking_id = bookings_csv['booking_id'].max()
+    else:
+        bookings_csv = pd.DataFrame()
+        max_booking_id = 0
+
+    if os.path.exists(reviews_file):
+        reviews_csv = pd.read_csv(reviews_file)
+        max_review_id = reviews_csv['review_id'].max()
+    else:
+        reviews_csv = pd.DataFrame()
+        max_review_id = 0
 
     # Combien de bookings/reviews tu veux générer ?
     NUM_BOOKINGS = 10000
     NUM_REVIEWS = 9000
-
-    # Déterminer le max des IDs actuels
-    max_booking_id = bookings_csv['booking_id'].max() if not bookings_csv.empty else 0
-    max_review_id = reviews_csv['review_id'].max() if not reviews_csv.empty else 0
 
     # Fonctions utilitaires
     def random_date(start, end):
