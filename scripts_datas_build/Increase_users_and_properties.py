@@ -53,10 +53,10 @@ def increase_users_and_properties():
         max_property_id = 0
 
     # Helper functions
-    def generate_birthdate():
-        today = datetime.today()
-        age = random.randint(18, 70)
-        birth_date = today - timedelta(days=365 * age + random.randint(0, 364))
+    def generate_birthdate(signup_date):
+        signup_datetime = datetime.combine(signup_date, datetime.min.time())
+        age_at_signup = random.randint(18, 70)
+        birth_date = signup_datetime - timedelta(days=365 * age_at_signup + random.randint(0, 364))
         return birth_date.date()
 
     def generate_sex_and_name(is_foreign):
@@ -93,7 +93,7 @@ def increase_users_and_properties():
             phone, address = generate_phone_and_address(is_foreign)
             email = f"{name.lower()}.{random.randint(1000,9999)}@example.com"
             signup_date = faker_fr.date_between(start_date='-5y', end_date='today')
-            birth_date = generate_birthdate()
+            birth_date = generate_birthdate(signup_date)
             users.append({
                 'user_id': start_id + i + 1,
                 'name': name,
