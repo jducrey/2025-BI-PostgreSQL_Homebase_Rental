@@ -1,18 +1,9 @@
 import psycopg2
-from psql_var import userName, mdp
-
-def connect():
-    return psycopg2.connect(
-        dbname="cozybnb_db",
-        user=userName,
-        password=mdp,
-        host="localhost",
-        port="5432"
-    )
+from config.db_utils import connect_cozy_bnb_db
 
 def execute_query(query, description):
     try:
-        conn = connect()
+        conn = connect_cozy_bnb_db()
         cur = conn.cursor()
         cur.execute(query)
         results = cur.fetchall()
