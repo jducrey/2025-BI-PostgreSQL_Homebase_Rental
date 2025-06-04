@@ -132,9 +132,9 @@ dashboards/cozybnb_powerbi.pbix
 
 - `data-quality-test` : contenait le développement des tests de cohérence métier (réservations non-chevauchantes, âge légal, cohérence temporelle, etc.). Mergée dans `main` le 2025-05-31
 
-- `add_README.md` : contenait le développement du fichier de documentation README.md, permettant de présenter le but du projet (Objectif métier, Objectif Technique, Architecture, ...). Mergée dans `main` le 2025-06-04 via [Pull Request #13](lien-vers-la-pr-si-dispo).
+- `add_README.md` : contenait le développement du fichier de documentation README.md, permettant de présenter le but du projet (Objectif métier, Objectif Technique, Architecture, ...). Mergée dans `main` le 2025-06-04 via [Pull Request #13](https://github.com/jducrey/2025-BI-PostgreSQL_Homebase_Rental/pull/13).
 
-- `Add_queries_for_KPIs` : contenait le développement du script queries.py, permettant le calcul d'une partie des KPIs nécessaires, pour l'analyse des données d'une vraie plateforme de locations de logements. Mergée dans `main` le 2025-06-04 via [Pull Request #15](lien-vers-la-pr-si-dispo).
+- `Add_queries_for_KPIs` : contenait le développement du script queries.py, permettant le calcul d'une partie des KPIs nécessaires, pour l'analyse des données d'une vraie plateforme de locations de logements. Mergée dans `main` le 2025-06-04 via [Pull Request #15](https://github.com/jducrey/2025-BI-PostgreSQL_Homebase_Rental/pull/15).
 
 --- 
 
