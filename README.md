@@ -99,8 +99,6 @@ Projet personnel de **Data Engineering & Analysis**, basé sur une plateforme fi
 
 ---
 
----
-
 ## 📊 Exemples d'insights extraits
 
 - 🌍 Taux d’occupation par région
@@ -129,6 +127,14 @@ dashboards/cozybnb_powerbi.pbix
 ```
 
 ---
+
+## Branches terminées (supprimées)
+
+- `data-quality-test` : contenait le développement des tests de cohérence métier (réservations non-chevauchantes, âge légal, cohérence temporelle, etc.). Mergeée dans `main` le 2025-05-31
+
+- `add_README.md` : contenait le développement du fichier de documentation README.md, permettant de présenter le but du projet (Objectif métier, Objectif Technique, Architecture, ...). Mergeée dans `main` le 2025-06-04 via [Pull Request #13](lien-vers-la-pr-si-dispo).
+
+--- 
 
 ## 🤝 À propos
 Projet solo mené par Julien Ducrey dans le cadre de sa montée en compétences continue sur la Data Engineering & Analytics.
