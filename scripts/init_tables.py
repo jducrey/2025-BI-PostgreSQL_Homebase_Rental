@@ -44,7 +44,9 @@ def init_tables():
                 start_date DATE,
                 end_date DATE,
                 total_price NUMERIC,
-                booking_date DATE
+                booking_date DATE,
+                canceled BOOLEAN,
+                cancellation_date DATE
             );
 
             -- Table des avis
