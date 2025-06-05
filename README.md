@@ -136,6 +136,8 @@ dashboards/cozybnb_powerbi.pbix
 
 - `Add_queries_for_KPIs` : contenait le développement du script queries.py, permettant le calcul d'une partie des KPIs nécessaires, pour l'analyse des données d'une vraie plateforme de locations de logements. Mergée dans `main` le 2025-06-04 via [Pull Request #15](https://github.com/jducrey/2025-BI-PostgreSQL_Homebase_Rental/pull/15).
 
+- `Add_cancellation` : contenait le développement des réservations annulées, au sein du modèle de données de la plateforme CozyBnB, avec les champs canceled, cancellation_date, la modification de la génération des données, de leur insertion dans la db, l'ajout de test automatisées, pour vérifier la qualité des données. Ajout du calcul de nouveaux KPIs, prenant en compte les réservations annulées. Mergée dans `main` le 2025-06-05 via [Pull Request #16](https://github.com/jducrey/2025-BI-PostgreSQL_Homebase_Rental/pull/16).
+
 --- 
 
 ## 🤝 À propos
