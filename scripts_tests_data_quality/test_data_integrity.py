@@ -87,3 +87,36 @@ def test_null_values_critical_columns():
     cur.close()
     conn.close()
     assert count == 0, f"{count} valeurs NULL détectées dans des colonnes critiques"
+
+
+# Vérifie que si canceled = TRUE alors cancellation_date est bien NON NULL.
+def test_cancellation_date_not_null_when_canceled():
+    conn = connect_cozy_bnb_db()
+    cur = conn.cursor()
+    cur.execute("""
+        SELECT COUNT(*)
+        FROM bookings
+        WHERE canceled = TRUE
+          AND cancellation_date IS NULL;
+    """)
+    count = cur.fetchone()[0]
+    cur.close()
+    conn.close()
+    assert count == 0, f"{count} booking(s) annulé(s) sans cancellation_date !"
+
+
+# Vérifie que si canceled = FALSE alors cancellation_date est bien NULL.
+def test_cancellation_date_null_when_not_canceled():
+    conn = connect_cozy_bnb_db()
+    cur = conn.cursor()
+    cur.execute("""
+        SELECT COUNT(*)
+        FROM bookings
+        WHERE canceled = FALSE
+          AND cancellation_date IS NOT NULL;
+    """)
+    count = cur.fetchone()[0]
+    cur.close()
+    conn.close()
+    assert count == 0, f"{count} booking(s) non annulé(s) avec une cancellation_date !"
+

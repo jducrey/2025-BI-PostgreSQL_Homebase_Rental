@@ -57,3 +57,22 @@ def test_signup_before_booking():
     cur.close()
     conn.close()
     assert count == 0, f"{count} réservations ont été faites avant l'inscription de l'utilisateur !"
+
+
+# Vérifie que cancellation_date est STRICTEMENT entre booking_date et start_date.
+def test_cancellation_date_within_range():
+    conn = connect_cozy_bnb_db()
+    cur = conn.cursor()
+    cur.execute("""
+        SELECT COUNT(*)
+        FROM bookings
+        WHERE cancellation_date IS NOT NULL
+          AND (cancellation_date <= booking_date
+               OR cancellation_date > start_date); 
+    """)
+    count = cur.fetchone()[0]
+    cur.close()
+    conn.close()
+    assert count == 0, (
+        f"{count} cancellation_date hors fenêtre [booking_date, start_date) !"
+    )

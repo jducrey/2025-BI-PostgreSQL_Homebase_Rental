@@ -32,6 +32,8 @@ def increase_bookings_and_reviews():
     NUM_BOOKINGS = 10000
     NUM_REVIEWS = 9000
 
+    PERCENT_CANCELED = 0.08 # 8% of cancellations
+
     # Fonctions utilitaires
     def random_date(start, end):
         """Retourne une date aléatoire entre deux dates"""
@@ -149,23 +151,38 @@ def increase_bookings_and_reviews():
         existing_bookings.setdefault(property_id, []).append((start_date, end_date))
         
         total_price = round(price_per_night * nights, 2)
-        bookings.append([booking_id, user_id, property_id, start_date.date(), end_date.date(), total_price, booking_date.date()])
+        is_canceled = (i >= int((1 - PERCENT_CANCELED) * NUM_BOOKINGS))
+        if is_canceled:
+            delay_days = random.randint(1, (start_date - booking_date).days)
+            cancellation_date = booking_date + timedelta(days=delay_days) # 24h avant on ne peut plus annuler la réservation
+        else:
+            cancellation_date = pd.NaT
+
+        bookings.append([booking_id, user_id, property_id, start_date.date(), end_date.date(), total_price, booking_date.date(), is_canceled, cancellation_date])
 
     bookings_df = pd.DataFrame(bookings, columns=[
-        'booking_id', 'user_id', 'property_id', 'start_date', 'end_date', 'total_price', 'booking_date'
+        'booking_id', 'user_id', 'property_id', 'start_date', 'end_date', 'total_price', 'booking_date', 'canceled', 'cancellation_date'
     ])
 
-    # Tirer aléatoirement des bookings uniques pour lesquels on va générer une review
-    bookings_with_reviews = random.sample(bookings, NUM_REVIEWS)
+    # Filtrer les bookings qui n'ont pas été annulés
+    non_canceled_bookings_df = bookings_df[bookings_df["canceled"] == False]
+    
+    # Vérifie que tu as assez de lignes
+    if NUM_REVIEWS > len(non_canceled_bookings_df):
+        raise ValueError("Pas assez de bookings non annulés pour générer autant de reviews.")
+
+    # Tirer aléatoirement des bookings uniques parmi ceux sans cancellation
+    bookings_with_reviews = non_canceled_bookings_df.sample(n=NUM_REVIEWS, random_state=42)
+    bookings_with_reviews_list = bookings_with_reviews.to_dict(orient="records")
 
     # Génération des reviews
     reviews = []
-    for i,booking in enumerate(bookings_with_reviews):
+    for i,booking in enumerate(bookings_with_reviews_list):
         review_id = max_review_id + i + 1
-        booking_id = booking[0]
+        booking_id = booking["booking_id"]
         rating = random.randint(1, 5)
         comment = generate_review_text(rating)
-        review_date = generate_review_date(datetime.strptime(str(booking[4]), "%Y-%m-%d")).date()
+        review_date = generate_review_date(datetime.strptime(str(booking["end_date"]), "%Y-%m-%d")).date()
         
         reviews.append([review_id, booking_id, rating, comment, review_date])
 
@@ -177,7 +194,7 @@ def increase_bookings_and_reviews():
     reviews_combined = pd.concat([reviews_csv, reviews_df], ignore_index=True)
 
     # Sauvegarde
-    bookings_combined.to_csv('datas/bookings.csv', index=False)
+    bookings_combined.to_csv('datas/bookings.csv', index=False, na_rep='\\N')
     reviews_combined.to_csv('datas/reviews.csv', index=False)
 
     print("Données enrichies et ajoutées dans bookings.csv et reviews.csv")
