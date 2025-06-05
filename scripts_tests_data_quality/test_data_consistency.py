@@ -83,3 +83,19 @@ def test_total_price_consistency():
     cur.close()
     conn.close()
     assert count == 0, f"{count} incohérences de total_price détectées pour les bookings !"
+
+
+# Vérifie que les réservations annulées (canceled = TRUE) n'ont pas de review associée
+def test_no_review_for_canceled_booking():
+    conn = connect_cozy_bnb_db()
+    cur = conn.cursor()
+    cur.execute("""
+        SELECT COUNT(*)
+        FROM bookings b
+        JOIN reviews r ON r.booking_id = b.booking_id
+        WHERE b.canceled = TRUE;
+    """)
+    count = cur.fetchone()[0]
+    cur.close()
+    conn.close()
+    assert count == 0, f"{count} review(s) trouvée(s) sur des bookings annulés !"
