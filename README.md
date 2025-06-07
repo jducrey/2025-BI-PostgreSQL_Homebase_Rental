@@ -138,6 +138,8 @@ dashboards/cozybnb_powerbi.pbix
 
 - `Add_cancellation` : contenait le développement des réservations annulées, au sein du modèle de données de la plateforme CozyBnB, avec les champs canceled, cancellation_date, la modification de la génération des données, de leur insertion dans la db, l'ajout de test automatisées, pour vérifier la qualité des données. Ajout du calcul de nouveaux KPIs, prenant en compte les réservations annulées. Mergée dans `main` le 2025-06-05 via [Pull Request #16](https://github.com/jducrey/2025-BI-PostgreSQL_Homebase_Rental/pull/16).
 
+- `Dev_POWER_BI_Dashboard` : contenait le développement du Dashboard sur Power BI Desktop. Connexion aux tables de la base de données PostgreSQL CozyBnB, calcul des KPI avec des requêtes en DAX. Constructions des pages et des visuels, pour l'analyse des données. Mergée dans `main` le 2025-06-07 via [Pull Request #17](https://github.com/jducrey/2025-BI-PostgreSQL_Homebase_Rental/pull/17).
+
 --- 
 
 ## 🤝 À propos
